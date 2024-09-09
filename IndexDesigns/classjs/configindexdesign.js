@@ -1,6 +1,0 @@
-function eventoclickup(){
-    
-}
-
-function tamanhoBody(){
-}
