@@ -3,6 +3,16 @@
     padding: 0%;
 }
 
+@font-face {
+    font-family: 'fonte-texto1';
+    src: url(../resources/fonts/fonte-texto1.ttf);
+}
+
+@font-face {
+    font-family: 'fonte-texto2';
+    src: url(../resources/fonts/fonte-texto2.ttf);
+}
+
 header{
     background: #222222;
     padding: 40px 25px;
@@ -15,6 +25,7 @@ nav{
 }
 
 nav > a{
-    color: white;
     text-decoration: none;
+    color: #38b6ff;
+    color: white;
 }
