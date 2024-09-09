@@ -1,0 +1,7 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 730px) {
+    body{
+        background: red;
+    }
+}

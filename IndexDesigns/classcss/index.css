@@ -30,7 +30,7 @@ header{
 nav{
     display: flex;
     justify-content: center;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
 }
 
@@ -39,6 +39,7 @@ nav > a{
     text-decoration: none;
     color: #38b6ff;
     margin: 0px 10px;
+    transition: 200ms;
 }
 
 nav > a:hover{
