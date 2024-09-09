@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="../classcss/screenresponsiveness.css">
     <script src="../classjs/configindexdesign.js"></script>
 </head>
-<body>
+<body onresize="tamanhoBody()">
     <header>
         <nav>
             <a href="#" class="configjs-options config-display" id="config-optionnav-especifico">Ps.Marques</a>
-            <span>
+            <span id="config-display-span1e2">
                 <a href="#" class="config-options-js">projetosWeb</a>
                 <a href="#" class="config-options-js">perfilWeb</a>
             </span>
-            <a href="#" class="configjs-options config-display" id="config-menuoption"><span id="config-display-span1">menu</span><span id="config-display-span2">&equiv;</span></a>
+            <a href="#" class="configjs-options config-display" onclick="eventoclickup()" id="config-menuoption"><span id="config-display-span1">menu</span><span id="config-display-span2">&equiv;</span></a>
         </nav>
     </header>
 </body>
