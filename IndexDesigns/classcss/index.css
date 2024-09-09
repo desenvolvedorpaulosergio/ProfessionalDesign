@@ -29,12 +29,12 @@ header{
 
 nav{
     display: flex;
-    justify-content: center;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
 }
 
-nav > a{
+nav > span > a, nav > a{
     font: normal normal 25px 'fonte-texto1';
     text-decoration: none;
     color: #38b6ff;
@@ -42,7 +42,7 @@ nav > a{
     transition: 200ms;
 }
 
-nav > a:hover{
+nav > span > a:hover, nav > a:hover{
     text-decoration: underline;
 }
 
