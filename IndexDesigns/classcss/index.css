@@ -17,9 +17,14 @@
     src: url(../resources/fonts/fonte-texto2.ttf);
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
 header{
     background: #222222;
-    padding: 40px 60px;
+    padding: 30px 60px;
 }
 
 nav{
@@ -30,8 +35,18 @@ nav{
 }
 
 nav > a{
+    font: normal normal 25px 'fonte-texto1';
     text-decoration: none;
     color: #38b6ff;
+    margin: 0px 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+nav > a:last-child{
+    color: white;
 }
 
 #config-optionnav-especifico{
