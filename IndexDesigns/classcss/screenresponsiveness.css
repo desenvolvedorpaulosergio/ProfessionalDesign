@@ -3,7 +3,7 @@
 @media screen and (max-width: 730px) {
     /* Configurando responsividade parte 1 */
 
-    nav > a{
+    nav > span > a, nav > a{
         font-size: 20px;
     }
 
@@ -13,7 +13,32 @@
 }
 
 @media screen and (max-width: 630px) {
+    
+    #config-display-span1{
+        display: none;
+    }
+
+    #config-display-span2{
+        display: block;
+    }
+
+    header{
+        padding: 0px 0px;
+        margin: 0;
+    }
+
     .config-options-js{
         display: none;
+    }
+
+    #config-optionnav-especifico{
+        margin-left: 40px;
+    }
+
+    #config-menuoption{
+        background: black;
+        padding: 10px 30px;
+        font-size: 50px;
+        margin: 0;
     }
 }
