@@ -19,10 +19,7 @@
 
 body{
     width: 100vw;
-    height: 100vh;
-}
-
-header{
+    
 }
 
 nav{
@@ -94,4 +91,16 @@ nav > a:last-child, #config-options-display > a:last-child{
 
 #config-options-display2 > a:active{
     transform: scale(0.95);
+}
+
+#config-iframe{
+    width: 95%;
+    background: #DEDEDE;
+    color: #AFAFAF;
+    height: 400px;
+    margin: auto;
+}
+
+main{
+    text-align: center;
 }
