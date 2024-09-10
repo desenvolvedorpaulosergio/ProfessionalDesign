@@ -98,11 +98,14 @@ nav > a:last-child, #config-options-display > a:last-child{
 }
 
 #config-iframe{
-    width: 95%;
+    width: 98%;
     background: #DEDEDE;
     color: #AFAFAF;
     height: 400px;
     margin: auto;
+    margin-top: 8px;
+    border: none;
+    border-right: 10px solid #A6A6A6;
 }
 
 main{
