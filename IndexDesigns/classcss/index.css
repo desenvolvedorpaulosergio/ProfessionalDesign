@@ -34,7 +34,7 @@ nav{
     justify-content: center;
 }
 
-nav > span > a, nav > a, #config-options-display > a{
+nav > span > a, nav > a, #config-options-display2 > a{
     font: normal normal 25px 'fonte-texto1';
     text-decoration: none;
     color: #38b6ff;
@@ -62,4 +62,36 @@ nav > a:last-child, #config-options-display > a:last-child{
 
 #config-display-span2{
     display: none;
+}
+
+#config-options-display{
+    background: #222222;
+    padding: 25px 0px;
+    margin-top: 1px;
+    width: 100%;
+    display: none;
+}
+
+#config-options-display2{
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+}
+
+#config-options-display2 > a{
+    padding: 10px 0px;
+}
+
+#config-options-display2 > a:last-child{
+    color: white;
+}
+
+#config-options-display2 > a:hover{
+    background: white;
+    border-radius: 50px;
+    color: black;
+}
+
+#config-options-display2 > a:active{
+    transform: scale(0.95);
 }
