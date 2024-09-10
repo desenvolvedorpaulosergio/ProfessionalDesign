@@ -17,7 +17,7 @@
     src: url(../resources/fonts/fonte-texto2.ttf);
 }
 
-#teste{
+iframe > h1{
     color: red;
 }
 
@@ -101,7 +101,7 @@ nav > a:last-child, #config-options-display > a:last-child{
     width: 98%;
     background: #DEDEDE;
     color: #AFAFAF;
-    height: 400px;
+    height: 450px;
     margin: auto;
     margin-top: 8px;
     border: none;
