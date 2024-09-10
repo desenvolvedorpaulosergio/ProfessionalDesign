@@ -17,6 +17,10 @@
     src: url(../resources/fonts/fonte-texto2.ttf);
 }
 
+#teste{
+    color: red;
+}
+
 body{
     width: 100vw;
     
@@ -86,7 +90,7 @@ nav > a:last-child, #config-options-display > a:last-child{
 #config-options-display2 > a:hover{
     background: white;
     border-radius: 50px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #config-options-display2 > a:active{
