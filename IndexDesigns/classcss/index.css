@@ -17,10 +17,6 @@
     src: url(../resources/fonts/fonte-texto2.ttf);
 }
 
-iframe > h1{
-    color: red;
-}
-
 body{
     width: 100vw;
     
@@ -110,4 +106,31 @@ nav > a:last-child, #config-options-display > a:last-child{
 
 main{
     text-align: center;
+}
+
+/* Iniciando parte 2 do projeto */
+
+#config-elementos{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+#config-elementos > div{
+    background: #222222;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* Estilo Temporário: Apricação JavaScript */
+
+#config-elementos > div > span{
+    font: normal bold 20px 'fonte-texto2';
+}
+
+#projeto-descricao{
+    text-align: right;
 }
