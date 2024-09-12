@@ -1,5 +1,11 @@
 @charset 'UTF-8';
 
+@media screen and (min-width: 1366px){
+    #config-iframe{
+        height: 560px;
+    }  
+}
+
 @media screen and (max-width: 730px) {
     /* Configurando responsividade parte 1 */
 
