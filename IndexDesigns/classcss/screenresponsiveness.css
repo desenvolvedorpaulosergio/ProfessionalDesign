@@ -6,9 +6,7 @@
     }  
 }
 
-@media screen and (max-width: 730px) {
-    /* Configurando responsividade parte 1 */
-
+@media screen and (max-width: 760px) {
     nav > span > a, nav > a{
         font-size: 20px;
     }
@@ -18,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 660px) {
     
     #config-display-span1{
         display: none;
