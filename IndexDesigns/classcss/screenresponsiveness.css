@@ -45,4 +45,28 @@
         font-size: 50px;
         margin: 0;
     }
+
+    /* Responsividade parte 2 */
+
+    #config-elementos > div{
+        padding: 15px 8px;
+    }
+
+    #config-elementos > div > span{
+        font-size: 3vw;
+    }
+    
+    .estilo-botoes{
+        margin: 0px 0.5vw;
+        padding: 1.5vw;
+    }
+    
+    #config-botao-especifico{
+        margin-left: auto;
+    }
+
+    #config-iframe{
+        height: 480px;
+    }  
+
 }
