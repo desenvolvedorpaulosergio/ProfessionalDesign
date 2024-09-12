@@ -93,6 +93,12 @@ nav > a:last-child, #config-options-display > a:last-child{
     transform: scale(0.95);
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #config-iframe{
     width: 98%;
     background: #DEDEDE;
@@ -100,8 +106,6 @@ nav > a:last-child, #config-options-display > a:last-child{
     height: 450px;
     margin: auto;
     margin-top: 8px;
-    border: none;
-    border-right: 10px solid #A6A6A6;
 }
 
 main{
