@@ -134,3 +134,17 @@ main{
 #projeto-descricao{
     text-align: right;
 }
+
+.estilo-botoes{
+    background: #222222;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    padding: 10px;
+    line-height: 0px;
+    text-align: center;
+}
+
+#config-botao-especifico{
+    margin-left: auto;
+}
