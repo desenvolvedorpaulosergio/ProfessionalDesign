@@ -126,7 +126,7 @@ main{
     color: white;
     padding: 20px 10px;
     border-radius: 5px;
-    width: 50%;
+    width: 60%;
 }
 
 /* Estilo Temporário: Apricação JavaScript */
@@ -155,5 +155,9 @@ main{
 }
 
 #config-botao-especifico{
+    margin-left: auto;
+}
+
+#config-span-opcoes{
     margin-left: auto;
 }
