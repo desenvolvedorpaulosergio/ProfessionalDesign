@@ -70,9 +70,9 @@
 @media screen and (max-width: 495px) {
     #config-elementos{
         display: flex;
+        align-items: center;
         flex-flow: column wrap;
         justify-content: center;
-        align-items: center;
     }
 
     #config-span-opcoes{
@@ -89,4 +89,7 @@
         width: 90%;
     }
 
+}
+
+@media screen and (max-width: 395px) {
 }
