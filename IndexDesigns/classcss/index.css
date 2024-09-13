@@ -137,12 +137,23 @@ main{
 .estilo-botoes{
     background: #222222;
     border-radius: 100px;
+    text-align: center;
+    line-height: 0px;
     color: white;
     border: none;
     padding: 15px;
-    line-height: 0px;
-    text-align: center;
     margin: 0px 5px;
+    transition: 100ms;
+}
+
+.estilo-botoes:hover{
+    background: #222222be;
+    color: #ffffffb9;
+    cursor: pointer;
+}
+
+.estilo-botoes:active{
+    transform: scale(0.95);
 }
 
 .estilo-botoes > span{
