@@ -81,7 +81,7 @@
     }
 
     #config-iframe{
-        height: 440px;
+        height: 450px;
     }
 
     #config-elementos > div{
@@ -93,6 +93,15 @@
 
 @media screen and (max-width: 395px) {
     #config-iframe{
-        width: 95%;
+        height: 460px;
     }
+
+    #config-optionnav-especifico{
+        font-size: 25px;
+    }
+
+    #config-menuoption{
+        font-size: 40px;
+    }
+
 }
