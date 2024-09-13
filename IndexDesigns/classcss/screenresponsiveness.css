@@ -92,4 +92,7 @@
 }
 
 @media screen and (max-width: 395px) {
+    #config-iframe{
+        width: 95%;
+    }
 }
