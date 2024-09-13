@@ -76,12 +76,17 @@
     }
 
     #config-span-opcoes{
-        margin-top: 1px;
+        margin-top: 10px;
         margin-left: 0;
     }
 
     #config-iframe{
         height: 440px;
+    }
+
+    #config-elementos > div{
+        padding: 12px 10px;
+        width: 90%;
     }
 
 }
