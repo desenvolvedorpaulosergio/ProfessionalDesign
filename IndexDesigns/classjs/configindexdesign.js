@@ -1,11 +1,8 @@
-// <!-- 
-        
-// srcdoc=" <br> <br> <br> <br>
-//     <h1 style='text-align:center; font-size: 60px; color: #AFAFAF;'>
-//     Selecione meus Projetos Criativos <br> para Visualizá-los!</h1>
-//     <p style='text-align:center; font-size: 30px; color: #AFAFAF; font-family: arial;'>
-//     Precione a opção de <ins>menu</ins>.</p>
-// "
-
-// -->
-
+function EventoEnter(){
+    let displayContainer = window.document.getElementById('config-display-container')
+    if(window.document.getElementById('config-iframe').style.src == ""){
+        displayContainer.style.display = 'block'
+    }else{
+        //Direcionamento LINK
+    }
+}

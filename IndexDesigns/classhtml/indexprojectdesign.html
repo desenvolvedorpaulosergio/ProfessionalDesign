@@ -34,19 +34,19 @@
     <div id="config-elementos">
         <div><span id="projeto-descricao">Descrição...</span></div>
         <span id="config-span-opcoes">
-            <button class="estilo-botoes" id="botao-enter">
+            <button class="estilo-botoes" id="botao-enter" onclick="EventoEnter()">
                 <span class="material-symbols-outlined">login</span>
             </button>
             <button class="estilo-botoes" id="botao-download">
-                <span class="material-symbols-outlined">vertical_align_bottom</span>
+                <span class="material-symbols-outlined" onclick="EventoDownload()">vertical_align_bottom</span>
             </button>
-            <button class="estilo-botoes" id="botao-fullscreen">
+            <button class="estilo-botoes" id="botao-fullscreen" onclick="EventoFullScreen()">
                 <span class="material-symbols-outlined">fullscreen</span>
             </button>
         </span>         
     </div>
 
-    <span id="config-display-container">
+    <div id="config-display-container">
         <div id="estilo-container-modal">
             <div id="estilo-mensagem-modal">
                 <img src="../resources/imgs/clamation-point.png" alt="" width="80px">
