@@ -5,6 +5,6 @@ function EventoEnter(){
     }else{
         //Direcionamento LINK
         alert('Direcionamento LINK')
-
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/ThematicSystems/PizzariaRapidista/classhtml/index.html";
     }
 }
