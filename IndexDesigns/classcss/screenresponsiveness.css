@@ -79,21 +79,16 @@
         margin-top: 10px;
         margin-left: 0;
     }
-
-    #config-iframe{
-        height: 450px;
-    }
-
+    
     #config-elementos > div{
         padding: 12px 10px;
         width: 90%;
     }
-
 }
 
 @media screen and (max-width: 395px) {
     #config-iframe{
-        height: 475px;
+        height: 65vh;
     }
 
     #config-optionnav-especifico{
