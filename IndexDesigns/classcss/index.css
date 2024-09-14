@@ -17,6 +17,10 @@
     src: url(../resources/fonts/fonte-texto2.ttf);
 }
 
+body{
+    position: relative;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -173,3 +177,23 @@ main{
 #config-span-opcoes{
     margin-left: auto;
 }
+
+/* Configurações Modais */
+
+#estilo-container-modal{
+    position: absolute;
+    background: #4d4d4d;
+    height: 100vh;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#estilo-mensagem-modal{
+
+}
+
