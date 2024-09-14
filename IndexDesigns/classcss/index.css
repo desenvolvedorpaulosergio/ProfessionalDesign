@@ -196,6 +196,7 @@ main{
 #estilo-mensagem-modal{
     border: none;
     background: white;
+    text-align: center;
     border-radius: 20px;
     border-bottom: 5px solid #222222;
     height: 240px;
@@ -206,14 +207,30 @@ main{
     justify-content: center;
 }
 
-#estilo-mensagem-modal > img{
-
-}
 
 #estilo-mensagem-modal > p{
-
+    font: normal normal 25px 'arial';
+    background: #E5E5E5;
+    color: #437fbe;
+    width: 100%;
+    ma
 }
 
 #estilo-mensagem-modal > button{
-
+    font: normal normal 20px 'arial';
+    background: #38b6ff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    transition: 100ms;
 }
+
+#estilo-mensagem-modal > button:hover{
+    background: #38b6ffdc;
+}
+
+#estilo-mensagem-modal > button:active{
+    transform: scale(0.95);
+}
+
