@@ -17,6 +17,10 @@
     src: url(../resources/fonts/fonte-texto2.ttf);
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 nav{
     background: #222222;
     padding: 30px 60px;
@@ -100,8 +104,8 @@ main{
     height: 69vh;
     width: 98%;
     margin: auto;
-    margin-top: 8px;
     border: none;
+    margin-top: 8px;
     border-right: 10px solid #A6A6A6;
 }
 

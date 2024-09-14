@@ -74,7 +74,7 @@
         flex-flow: column wrap;
         justify-content: center;
     }
-
+    
     #config-span-opcoes{
         margin-top: 10px;
         margin-left: 0;
@@ -84,11 +84,16 @@
         padding: 12px 10px;
         width: 90%;
     }
+
+    #config-iframe{
+        height: 69vh;
+    }
+
 }
 
 @media screen and (max-width: 395px) {
     #config-iframe{
-        height: 65vh;
+        height: 67vh;
     }
 
     #config-optionnav-especifico{
@@ -98,5 +103,4 @@
     #config-menuoption{
         font-size: 40px;
     }
-
 }
