@@ -105,12 +105,14 @@
     }
 }
 
-@media screen and (orientation: landscape){
-    body{
-        background: red;
-    }
-
+@media screen and (orientation: landscape) and (max-height: 620px){
     #estilo-container-modal{
         height: 100%;
+    }
+}
+
+@media screen and (orientation: portrait){
+    #config-iframe{
+        height: 65vh;
     }
 }
