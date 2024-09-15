@@ -64,12 +64,21 @@ nav > a:last-child, #config-options-display > a:last-child{
     display: none;
 }
 
+@keyframes AnimacaoOptionDisplay {
+    from{
+        transform: translateY(-100px);
+    }to{
+        transform: translateY(0px);
+    }
+}
+
 #config-options-display{
     background: #222222;
     padding: 25px 0px;
     margin-top: 1px;
     width: 100%;
     display: none;
+    animation: AnimacaoOptionDisplay 150ms 1;
 }
 
 #config-options-display2{
@@ -92,7 +101,7 @@ nav > a:last-child, #config-options-display > a:last-child{
     color: rgb(0, 0, 0);
 }
 
-#config-options-display2 > a:active, .estilo-botoes:active, #estilo-mensagem-modal > button:active{
+#config-options-display2 > a:active, .estilo-botoes:active, #estilo-mensagem-modal > button:active, #estilo-close:active{
     transform: scale(0.95);
 }
 
@@ -110,7 +119,7 @@ main{
     width: 98%;
     margin: auto;
     border: none;
-    margin-top: 1px;
+    margin-top: 2px;
     border-right: 10px solid #A6A6A6;
 }
 
@@ -233,18 +242,19 @@ main{
 }
 
 #display-continer-projetos{
+    display: none;
 }
 
 #div-projetos{
     background: #222222;
-    margin-top: 1px;
+    margin-top: 2px;
     width: 300px;
     height: 69vh;
 }
 
 #config-display-topprojetos{
     padding: 0px 0px 10px 10px;
-    font: normal normal 15px 'fonte-texto2';
+    font: normal normal 16px 'fonte-texto2';
     color: white;
     display: flex;
     align-items: center;
