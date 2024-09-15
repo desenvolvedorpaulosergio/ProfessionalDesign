@@ -108,6 +108,25 @@
     #config-iframe{
         height: 69vh;
     }
+
+    #estilo-mensagem-modal{
+        height: 175px;
+        width: 350px;
+    }
+
+    #estilo-mensagem-modal > img{
+        width: 50px;
+    }
+
+    #estilo-mensagem-modal > p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+
+    #estilo-mensagem-modal > button{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (orientation: landscape) and (max-height: 620px){
