@@ -241,3 +241,19 @@ main{
     width: 300px;
     height: 69vh;
 }
+
+#config-display-topprojetos{
+    padding: 0px 0px 10px 10px;
+    font: normal normal 15px 'fonte-texto2';
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#estilo-close{
+    background: black;
+    margin-left: auto;
+    cursor: pointer;
+    padding: 15px;
+}
+
