@@ -4,6 +4,10 @@
     #config-iframe{
         height: 560px;
     }  
+
+    #estilo-container-modal{
+        height: 110%;
+    }
 }
 
 @media screen and (max-width: 790px) {
@@ -14,6 +18,11 @@
     #config-optionnav-especifico{
         font-size: 24px;
     }
+
+    #estilo-container-modal{
+        height: 102.5%;
+    }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -65,6 +74,10 @@
         height: 480px;
     }  
 
+    #estilo-container-modal{
+        height: 107%;
+    }
+
 }
 
 @media screen and (max-width: 495px) {
@@ -91,7 +104,6 @@
 
 }
 
-
 @media screen and (orientation: portrait){
     #config-iframe{
         height: 69vh;
@@ -100,6 +112,6 @@
 
 @media screen and (orientation: landscape) and (max-height: 620px){
     #estilo-container-modal{
-        height: 100%;
+        background: red;
     }
 }

@@ -35,3 +35,9 @@ function equiv(){
         window.document.getElementById('config-options-display').style.display = "block";
     }
 }
+
+function tamanhoBody(){
+    if(window.innerWidth > 660){
+        window.document.getElementById('config-options-display').style.display = 'none'
+    }
+}
