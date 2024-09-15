@@ -91,28 +91,15 @@
 
 }
 
-@media screen and (max-width: 395px) {
+
+@media screen and (orientation: portrait){
     #config-iframe{
-        height: 71vh;
-    }
-
-    #config-optionnav-especifico{
-        font-size: 25px;
-    }
-
-    #config-menuoption{
-        font-size: 40px;
+        height: 69vh;
     }
 }
 
 @media screen and (orientation: landscape) and (max-height: 620px){
     #estilo-container-modal{
         height: 100%;
-    }
-}
-
-@media screen and (orientation: portrait){
-    #config-iframe{
-        height: 65vh;
     }
 }

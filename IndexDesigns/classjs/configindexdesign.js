@@ -28,4 +28,10 @@ function EventoEnter(){
      }
  }
 
- 
+function equiv(){
+    if(window.document.getElementById('config-options-display').style.display == "block"){
+        window.document.getElementById('config-options-display').style.display = "none";
+    }else{
+        window.document.getElementById('config-options-display').style.display = "block";
+    }
+}
