@@ -98,8 +98,9 @@ nav > a:last-child, #config-options-display > a:last-child{
 
 main{
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 #config-iframe{
@@ -109,7 +110,7 @@ main{
     width: 98%;
     margin: auto;
     border: none;
-    margin-top: 8px;
+    margin-top: 1px;
     border-right: 10px solid #A6A6A6;
 }
 
@@ -229,4 +230,14 @@ main{
 
 #estilo-mensagem-modal > button:hover{
     background: #38b6ffdc;
+}
+
+#display-continer-projetos{
+}
+
+#div-projetos{
+    background: #222222;
+    margin-top: 1px;
+    width: 300px;
+    height: 69vh;
 }

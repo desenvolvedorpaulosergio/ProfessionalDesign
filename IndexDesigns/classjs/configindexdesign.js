@@ -53,9 +53,3 @@ function tamanhoBody(){
         "<p style='text-align:center; font-size: 25px; color: #AFAFAF; font-family: arial;'> Precione a opção de <ins>designs</ins>.</p>"
     }
 }
-
-window.document.addEventListener('DOMContentLoaded', function(){
-    if(window.document.getElementsByTagName('body')[0].style.width < 790){
-    //    alert('iuhuhuu')
-    }
-})
