@@ -3,8 +3,8 @@
 /* Primeira parte do projeo-index de design */
 
 *{
-    padding: 0;
     margin: 0px;
+    padding: 0;
 }
 
 @font-face {
@@ -21,7 +21,7 @@ body{
     position: relative;
 }
 
-body::-webkit-scrollbar {
+body::-webkit-scrollbar{
     display: none;
 }
 
