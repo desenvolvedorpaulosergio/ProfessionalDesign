@@ -6,7 +6,7 @@
     }  
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
     nav > span > a, nav > a{
         font-size: 20px;
     }
@@ -102,5 +102,15 @@
 
     #config-menuoption{
         font-size: 40px;
+    }
+}
+
+@media screen and (orientation: landscape){
+    body{
+        background: red;
+    }
+
+    #estilo-container-modal{
+        height: 100%;
     }
 }
