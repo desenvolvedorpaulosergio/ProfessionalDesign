@@ -107,6 +107,45 @@
     #estilo-container-modal{
         height: 107%;
     }
+
+    main{
+        display: flex;
+        flex-flow: column;
+    }
+
+    #div-projetos{
+        width: 100vw;
+    }
+    
+    @keyframes continerProjetos{
+        from{
+            transform: translateY(-500px);
+        }to{
+            transform: translateY(0px);
+        }
+    }
+    
+    #display-continer-projetos{
+        animation: continerProjetos 200ms 1;
+    }
+
+    #config-display-topprojetos > h1{
+        font-size: 30px;
+    }
+
+    #estilo-close{
+        padding: 20px;
+    }
+
+    #config-display-topprojetos{
+        display: flex;
+        align-items: center;
+    }
+
+    .config-titulo-padrao{
+        font-size: 25px;
+    }
+
 }
 
 @media screen and (max-width: 495px) {

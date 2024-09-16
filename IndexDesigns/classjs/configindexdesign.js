@@ -65,6 +65,14 @@ function design(){
     }
 }
 
+function designs(){
+    if(window.document.getElementById('display-continer-projetos').style.display == "block"){
+        window.document.getElementById('display-continer-projetos').style.display = "none"
+    }else{
+        window.document.getElementById('display-continer-projetos').style.display = "block"
+    }
+}
+
 function EventoClose(){
     if(window.document.getElementById('display-continer-projetos').style.display == "block"){
         window.document.getElementById('display-continer-projetos').style.display = "none"
