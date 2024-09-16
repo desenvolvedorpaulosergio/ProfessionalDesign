@@ -8,7 +8,13 @@
     #estilo-container-modal{
         height: 110%;
     }
+
+    #div-projetos{
+        height: 73vh;
+    }
+
 }
+
 
 @media screen and (max-width: 790px) {
     nav > span > a, nav > a{
@@ -22,7 +28,6 @@
     #estilo-container-modal{
         height: 102.5%;
     }
-
 }
 
 @media screen and (max-width: 660px) {
@@ -101,7 +106,6 @@
     #config-iframe{
         height: 69vh;
     }
-
 }
 
 @media screen and (orientation: portrait){
@@ -130,7 +134,4 @@
 }
 
 @media screen and (orientation: landscape) and (max-height: 620px){
-    #estilo-container-modal{
-        background: red;
-    }
 }

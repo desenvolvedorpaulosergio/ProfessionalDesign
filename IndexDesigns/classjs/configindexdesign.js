@@ -44,8 +44,11 @@ function tamanhoBody(){
     if(window.innerWidth <= 790 && window.innerWidth <= 660){
         window.document.getElementById('config-iframe').srcdoc = 
         "<br> <br> <br> <br>" +
-        "<h1 style='text-align:center; font-size: 35px; color: #AFAFAF;'> Selecione meus Projetos Criativos<br> para Visualizá-los! </h1> " +
+        "<h1 style='text-align:center; font-size: 40px; color: #AFAFAF;'> Selecione meus Projetos Criativos<br> para Visualizá-los! </h1> " +
         "<p style='text-align:center; font-size: 20px; color: #AFAFAF; font-family: arial;'> Precione a opção de <ins>designs</ins>.</p>"
+
+        window.document.getElementById('display-continer-projetos').style.display = "none"
+
     }else{
         window.document.getElementById('config-iframe').srcdoc = 
         "<br> <br> <br> <br>" +
