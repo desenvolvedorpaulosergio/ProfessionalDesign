@@ -289,3 +289,22 @@ main{
 .config-estilos-contatos:active{
     transform: scale(0.95);
 }
+
+#config-projeto-titulos{
+    font: normal normal 28px 'fonte-texto2';
+    padding-top: 10px;
+    color: #38b6ff;
+    text-align: left;
+    overflow-y: auto;
+    height: 60%;
+}
+
+.config-titulo-padrao{
+    padding: 10px;
+}
+
+.config-titulo-padrao:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
