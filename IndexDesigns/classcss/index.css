@@ -19,6 +19,7 @@
 
 body{
     position: relative;
+    overflow-x: none;
 }
 
 body::-webkit-scrollbar{
