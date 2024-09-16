@@ -53,7 +53,6 @@
     #config-projeto-titulos{
         font-size: 20px;
     }
-
 }
 
 @media screen and (max-width: 660px) {
@@ -164,16 +163,6 @@
     }
 
     .config-estilos-contatos{
-        width: 10vh;
-    }
-}
-
-@media screen and (orientation: landscape) and (min-height: 301px){
-    .config-estilos-contatos{
-        width: 40px;
-    }
-
-    #config-projeto-titulos{
-        height: 40%;
+        width: 12vh;
     }
 }
