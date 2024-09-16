@@ -6,7 +6,7 @@
     }  
 
     #estilo-container-modal{
-        height: 110%;
+        height: 100dvh;
     }
 
     #div-projetos{
@@ -30,7 +30,7 @@
     }
 
     #estilo-container-modal{
-        height: 102.5%;
+        height: 100dvh;
     }
 
     #config-display-topprojetos > h1{
@@ -105,7 +105,7 @@
     }  
 
     #estilo-container-modal{
-        height: 107%;
+        height: 100%;
     }
 
     main{
@@ -143,7 +143,7 @@
     }
 
     .config-titulo-padrao{
-        font-size: 25px;
+        font-size: 20px;
     }
 
 }
