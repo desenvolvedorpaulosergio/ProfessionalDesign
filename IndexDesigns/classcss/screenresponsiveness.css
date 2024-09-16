@@ -28,6 +28,24 @@
     #estilo-container-modal{
         height: 102.5%;
     }
+
+    #config-display-topprojetos > h1{
+        font-size: 25px;
+        transition: 100ms;
+    }
+
+    .config-estilos-contatos{
+        width: 40px;
+    }
+
+    #div-projetos{
+        width: 250px;
+    }
+
+    #estilo-close{
+        padding: 10px;
+    }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -82,7 +100,6 @@
     #estilo-container-modal{
         height: 107%;
     }
-
 }
 
 @media screen and (max-width: 495px) {
@@ -132,6 +149,8 @@
         font-size: 15px;
     }
 }
+
+
 
 @media screen and (orientation: landscape) and (max-height: 620px){
 }

@@ -267,6 +267,7 @@ main{
     color: white;
     display: flex;
     align-items: center;
+    transition: 100ms;
 }
 
 #estilo-close{
@@ -277,5 +278,14 @@ main{
 }
 
 .config-estilos-contatos{
+    transition: 200ms;
+}
 
+.config-estilos-contatos:hover{
+    box-shadow: 0px 0px 5px cyan;
+    border-radius: 50px;
+}
+
+.config-estilos-contatos:active{
+    transform: scale(0.95);
 }
