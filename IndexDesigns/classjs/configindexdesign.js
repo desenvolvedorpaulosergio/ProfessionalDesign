@@ -36,12 +36,6 @@ function equiv(){
     }
 }
 
-function designs(){
-    if(window.document.getElementById('')){
-        window.document.getElementById('config-options-display').style.display = "none";
-    }
-}
-
 function tamanhoBody(){
     if(window.innerWidth > 660){
         window.document.getElementById('config-options-display').style.display = 'none'
@@ -60,8 +54,16 @@ function tamanhoBody(){
     }
 }
 
+function design(){
+    if(window.document.getElementById('display-continer-projetos').style.display == "block"){
+        window.document.getElementById('display-continer-projetos').style.display = "none"
+    }else{
+        window.document.getElementById('display-continer-projetos').style.display = "block"
+    }
+}
+
 function EventoClose(){
-    if(!(window.document.querySelector('#display-continer-projetos').style.display == 'block')){
-        window.document.querySelector('#display-continer-projetos').style.display = 'none'
+    if(window.document.getElementById('display-continer-projetos').style.display == "block"){
+        window.document.getElementById('display-continer-projetos').style.display = "none"
     }
 }

@@ -241,8 +241,17 @@ main{
     background: #38b6ffdc;
 }
 
+@keyframes continerProjetos{
+    from{
+        transform: translateX(-500px);
+    }to{
+        transform: translateX(0px);
+    }
+}
+
 #display-continer-projetos{
-    display: block;
+    display: none;
+    animation: continerProjetos 200ms 1;
 }
 
 #div-projetos{
