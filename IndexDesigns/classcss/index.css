@@ -242,7 +242,7 @@ main{
 }
 
 #display-continer-projetos{
-    display: none;
+    display: block;
 }
 
 #div-projetos{

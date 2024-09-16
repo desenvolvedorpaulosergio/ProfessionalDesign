@@ -36,6 +36,12 @@ function equiv(){
     }
 }
 
+function designs(){
+    if(window.document.getElementById('')){
+        window.document.getElementById('config-options-display').style.display = "none";
+    }
+}
+
 function tamanhoBody(){
     if(window.innerWidth > 660){
         window.document.getElementById('config-options-display').style.display = 'none'
@@ -44,12 +50,18 @@ function tamanhoBody(){
     if(window.innerWidth <= 790 && window.innerWidth <= 660){
         window.document.getElementById('config-iframe').srcdoc = 
         "<br> <br> <br> <br>" +
-        "<h1 style='text-align:center; font-size: 40px; color: #AFAFAF;'> Selecione meus Projetos Criativos<br> para Visualizá-los! </h1> " +
+        "<h1 style='text-align:center; font-size: 35px; color: #AFAFAF;'> Selecione meus Projetos Criativos<br> para Visualizá-los! </h1> " +
         "<p style='text-align:center; font-size: 20px; color: #AFAFAF; font-family: arial;'> Precione a opção de <ins>designs</ins>.</p>"
     }else{
         window.document.getElementById('config-iframe').srcdoc = 
         "<br> <br> <br> <br>" +
         "<h1 style='text-align:center; font-size: 50px; color: #AFAFAF;'> Selecione meus Projetos Criativos<br> para Visualizá-los! </h1> " +
         "<p style='text-align:center; font-size: 25px; color: #AFAFAF; font-family: arial;'> Precione a opção de <ins>designs</ins>.</p>"
+    }
+}
+
+function EventoClose(){
+    if(!(window.document.querySelector('#display-continer-projetos').style.display == 'block')){
+        window.document.querySelector('#display-continer-projetos').style.display = 'none'
     }
 }
