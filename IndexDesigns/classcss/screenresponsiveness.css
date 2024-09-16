@@ -13,6 +13,10 @@
         height: 73vh;
     }
 
+    #config-projeto-titulos{
+        height: 75%;
+    }
+
 }
 
 
@@ -44,6 +48,10 @@
 
     #estilo-close{
         padding: 10px;
+    }
+
+    #config-projeto-titulos{
+        font-size: 20px;
     }
 
 }
@@ -150,7 +158,22 @@
     }
 }
 
+@media screen and (orientation: landscape) and (max-height: 300px){
+    #config-projeto-titulos{
+        height: 45%;
+    }
 
+    .config-estilos-contatos{
+        width: 10vh;
+    }
+}
 
-@media screen and (orientation: landscape) and (max-height: 620px){
+@media screen and (orientation: landscape) and (min-height: 301px){
+    .config-estilos-contatos{
+        width: 40px;
+    }
+
+    #config-projeto-titulos{
+        height: 40%;
+    }
 }

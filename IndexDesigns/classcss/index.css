@@ -292,19 +292,31 @@ main{
 
 #config-projeto-titulos{
     font: normal normal 28px 'fonte-texto2';
+    overflow-x: hidden;
     padding-top: 10px;
     color: #38b6ff;
     text-align: left;
     overflow-y: auto;
     height: 60%;
+    width: 100%;
+    transition: 100ms;
+}
+
+#config-projeto-titulos::-webkit-scrollbar{
+    display: none;
 }
 
 .config-titulo-padrao{
     padding: 10px;
+    transition: 100ms;
 }
 
 .config-titulo-padrao:hover{
     background-color: white;
     cursor: pointer;
     color: black;
+}
+
+.config-titulo-padrao:active{    
+    font-size: 25px;
 }
