@@ -37,7 +37,7 @@ nav > a:hover, #config-estilo-opcoes > a:hover{
     text-decoration: underline;
 }
 
-nav > a:first-child{
+nav > a:first-child, #estilo-titulo-close > h1{
     font: normal bold 30px 'fonte-texto2';
     color: white;
 }
@@ -87,7 +87,7 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     color: black;
 }
 
-/* Configurações main */
+/* Configurações Main */
 
 main{
     display: flex;
@@ -96,8 +96,29 @@ main{
     padding: 5px;
 }
 
+/* Configurações da Barra Lateral */
+
+
 #config-barra-lateral{
     background: #222222;
-    height: 50dvh;
-    width: 20dvw;
+    height: 60dvh;
+    width: 250px;
+}
+
+#estilo-titulo-close{
+    display: flex;
+    align-items: center;
+}
+
+#estilo-titulo-close > h1{
+    margin-left: 20px;
+}
+
+#estilo-titulo-close > button{
+    font: normal bold 20px 'arial';
+    background: black;
+    padding: 15px 20px;
+    margin-left: auto;
+    color: white;
+    border: none;
 }
