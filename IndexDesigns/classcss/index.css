@@ -93,7 +93,7 @@ main{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    padding: 5px;
+    padding: 2px;
 }
 
 /* Configurações da Barra Lateral */
@@ -136,14 +136,21 @@ main{
 
 #config-conteudos{
     background: black;
+    overflow-y: auto;
     height: 300px;
+}
+
+#config-conteudos::-webkit-scrollbar{
+    display: none;
 }
 
 #config-conteudos > h1{
     font: normal normal 25px 'fonte-texto2';
     color: #38b6ff;
+    padding: 10px;
     display: flex;
     align-items: center;
+    transition: 100ms;
 }
 
 #config-conteudos > h1:hover{
@@ -151,6 +158,9 @@ main{
     color: black;
 }
 
+#config-conteudos > h1:active{
+    font-size: 20px;
+}
 
 
 
@@ -181,6 +191,7 @@ main{
 /* Configurações de Icones */
 #config-icons{
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #config-icons > a > img:hover{
