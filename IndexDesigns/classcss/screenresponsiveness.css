@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 730px) {
+
+    /* Responsividade Nav */
+
+
+    
+    nav > a:first-child{
+        transition: 500ms;
+        font-size: 25px;
+    }
+
+    .config-optionnav-padrao{
+        transition: 100ms;
+        margin: 0px 0.5vw;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 555px) {
+    #display-equiv{
+        display: block;
+    }
+
+    #display-designs{
+        display: none;
+    }
+
+    .display-ocultar{
+        display: none;
+    }
+
+}
