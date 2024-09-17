@@ -86,3 +86,18 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     background: white;
     color: black;
 }
+
+/* Configurações main */
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 5px;
+}
+
+#config-barra-lateral{
+    background: #222222;
+    height: 50dvh;
+    width: 20dvw;
+}
