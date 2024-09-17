@@ -11,8 +11,8 @@
 }
 
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 /* Configurações Nav */
@@ -173,32 +173,6 @@ main{
     font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Configurações de Icones */
 #config-icons{
     text-align: center;
@@ -213,3 +187,5 @@ main{
 #config-icons > a > img:active{
     transform: scale(0.95);
 }
+
+/* Configurações iframe */

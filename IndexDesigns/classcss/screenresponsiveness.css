@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 550px) {
     nav{
         padding: 0;
     }
@@ -39,4 +39,17 @@
         margin-left: auto;
         background: black;
     }
+
+    main{
+        margin-top: 1px;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    #config-barra-lateral{
+        
+    }
+
 }
