@@ -11,3 +11,7 @@ function eventoEquiv(){
         window.document.getElementById('config-display-opcoes').style.display = 'block'
     }
 }
+
+function eventoClose(){
+    window.document.getElementById('display-div-barra-lateral').style.display = 'none';
+}

@@ -121,4 +121,28 @@ main{
     margin-left: auto;
     color: white;
     border: none;
+    transition: 200ms;
+}
+
+#estilo-titulo-close > button:hover{
+    background: #383838a6;
+    cursor: pointer;
+}
+
+/* Configurações de Conteúdos/Projetos */
+
+
+
+/* Configurações de Icones */
+#config-icons{
+    text-align: center;
+}
+
+#config-icons > a > img:hover{
+    box-shadow: 0px 0px 5px cyan;
+    border-radius: 50px;
+}
+
+#config-icons > a > img:active{
+    transform: scale(0.95);
 }
