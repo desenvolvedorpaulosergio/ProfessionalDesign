@@ -98,6 +98,15 @@ main{
 
 /* Configurações da Barra Lateral */
 
+@keyframes animacaoBarraLateral {
+    from{
+        transform: translateX(-500px);
+    }
+}
+
+#display-div-barra-lateral{
+    display: none;
+}
 
 #config-barra-lateral{
     background: #222222;
@@ -106,6 +115,7 @@ main{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    animation: animacaoBarraLateral 300ms 1;
 }
 
 #estilo-titulo-close{
@@ -146,15 +156,16 @@ main{
 
 #config-conteudos > h1{
     font: normal normal 25px 'fonte-texto2';
+    transition: 100ms;
     color: #38b6ff;
     padding: 10px;
     display: flex;
     align-items: center;
-    transition: 100ms;
 }
 
 #config-conteudos > h1:hover{
     background: white;
+    cursor: pointer;
     color: black;
 }
 
