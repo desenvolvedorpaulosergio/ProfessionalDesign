@@ -101,8 +101,11 @@ main{
 
 #config-barra-lateral{
     background: #222222;
-    height: 60dvh;
+    height: 65dvh;
     width: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 #estilo-titulo-close{
@@ -130,6 +133,48 @@ main{
 }
 
 /* Configurações de Conteúdos/Projetos */
+
+#config-conteudos{
+    background: black;
+    height: 300px;
+}
+
+#config-conteudos > h1{
+    font: normal normal 25px 'fonte-texto2';
+    color: #38b6ff;
+    display: flex;
+    align-items: center;
+}
+
+#config-conteudos > h1:hover{
+    background: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
