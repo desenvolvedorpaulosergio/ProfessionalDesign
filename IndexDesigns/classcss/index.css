@@ -1,10 +1,5 @@
 @charset 'UTF-8';
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
 @font-face {
     font-family: 'fonte-texto1';
     src: url(../resources/fonts/fonte-texto1.ttf);
@@ -15,72 +10,44 @@
     src: url(../resources/fonts/fonte-texto2.ttf);
 }
 
-/* Configurações Nav */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 nav{
     background: #222222;
-    padding: 30px 25px;
+    padding: 30px 20px;
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
 }
 
-nav > a:first-child{
-    font: normal bold 30px 'fonte-texto2';
-    text-decoration: none;
-    transition: 100ms;
-    color: white;
-}
-
-.config-optionnav-padrao{
+nav > a{
     font: normal normal 25px 'fonte-texto1';
     text-decoration: none;
     transition: 100ms;
     color: #38b6ff;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 
-.config-optionnav-padrao:hover, nav > a:first-child:hover{
+nav > a:hover{
     text-decoration: underline;
 }
 
-.config-optionnav-padrao:last-child{
+nav > a:first-child{
+    font: normal bold 30px 'fonte-texto2';
     color: white;
 }
 
-#config-margin-span{
+nav > a:last-child{
+    color: white;
+}
+
+#config-display-equiv{
+    display: none;
+}
+
+#config-margin-projetosdesign{
     margin-left: auto;
-}
-
-#display-equiv{
-    display: none;
-}
-
-/* Configurações das opções ocultas-temporais*/
-
-#config-display-options{
-    display: none;
-}
-
-#config-estilos-options{
-    background: #222222;
-    margin-top: 1px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    justify-content: center;
-}
-
-#config-estilos-options > a{
-    text-align: center;
-    padding: 10px 0px;
-    font-size: 20px;
-    width: 100vw;
-}
-
-#config-estilos-options > a:hover{
-    border-radius: 50px;
-    background: white;
-    color: black;
 }

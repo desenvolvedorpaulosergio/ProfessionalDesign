@@ -1,35 +1,42 @@
 @charset 'UTF-8';
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 690px) {
+    nav{
+        padding: 25px 15px;
+    }
 
-    /* Responsividade Nav */
+    nav > a{
+        font-size: 20px; 
+        margin: 0px 5px;
+    }
 
-
-    
     nav > a:first-child{
-        transition: 500ms;
         font-size: 25px;
     }
-
-    .config-optionnav-padrao{
-        transition: 100ms;
-        margin: 0px 0.5vw;
-        font-size: 20px;
-    }
-
 }
 
-@media screen and (max-width: 555px) {
-    #display-equiv{
+@media screen and (max-width: 535px) {
+    nav{
+        padding: 0;
+    }
+
+    .itens-display-oculto, #config-display-designs{
+        display: none;
+    }
+
+    #config-display-equiv{
         display: block;
     }
 
-    #display-designs{
-        display: none;
+    nav > a:first-child{
+        margin-left: 15px;
     }
 
-    .display-ocultar{
-        display: none;
+    nav > a:last-child{
+        margin: 0;
+        font-size: 50px;
+        padding: 5px 30px;
+        margin-left: auto;
+        background: black;
     }
-
 }
