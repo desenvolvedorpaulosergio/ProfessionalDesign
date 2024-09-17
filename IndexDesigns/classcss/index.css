@@ -15,6 +15,8 @@
     padding: 0;
 }
 
+/* Configurações Nav */
+
 nav{
     background: #222222;
     padding: 30px 20px;
@@ -23,7 +25,7 @@ nav{
     align-items: center;
 }
 
-nav > a{
+nav > a, #config-estilo-opcoes > a{
     font: normal normal 25px 'fonte-texto1';
     text-decoration: none;
     transition: 100ms;
@@ -31,7 +33,7 @@ nav > a{
     margin: 0px 10px;
 }
 
-nav > a:hover{
+nav > a:hover, #config-estilo-opcoes > a:hover{
     text-decoration: underline;
 }
 
@@ -40,7 +42,7 @@ nav > a:first-child{
     color: white;
 }
 
-nav > a:last-child{
+nav > a:last-child, #config-estilo-opcoes > a:last-child{
     color: white;
 }
 
@@ -50,4 +52,37 @@ nav > a:last-child{
 
 #config-margin-projetosdesign{
     margin-left: auto;
+}
+
+/* Configurações Opçoes ocultas inicial */
+
+@keyframes animacaoOpcoes {
+    from{
+        transform: translateY(-500px);
+    }
+}
+
+#config-display-opcoes{
+    display: none;
+}
+
+#config-estilo-opcoes{
+    background: #222222;
+    text-align: center;
+    margin-top: 1px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    animation: animacaoOpcoes 300ms 1;
+}
+
+#config-estilo-opcoes > a{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#config-estilo-opcoes > a:hover{
+    border-radius: 50px;
+    background: white;
+    color: black;
 }

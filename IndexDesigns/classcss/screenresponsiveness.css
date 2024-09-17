@@ -13,6 +13,7 @@
     nav > a:first-child{
         font-size: 25px;
     }
+
 }
 
 @media screen and (max-width: 535px) {
