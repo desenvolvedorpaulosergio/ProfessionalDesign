@@ -13,6 +13,11 @@
     nav > a:first-child{
         font-size: 25px;
     }
+
+    #config-conteudos, #config-barra-lateral{
+        height: 400px;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -76,5 +81,4 @@
         padding: 5px;
         margin: 0;
     }
-
 }
