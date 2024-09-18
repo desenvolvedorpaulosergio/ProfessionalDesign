@@ -29,13 +29,13 @@
     }
 
     nav > a:first-child{
-        margin-left: 15px;
+        margin-left: 20px;
     }
 
     nav > a:last-child{
         margin: 0;
         font-size: 50px;
-        padding: 5px 30px;
+        padding: 5px 20px;
         margin-left: auto;
         background: black;
     }
@@ -48,8 +48,26 @@
         justify-content: center;
     }
 
+    /* Configurações de Responsividade da Barra Lateral de Tela max-width: 550px*/
+
+    #estilo-titulo-close > h1{
+        font-size: 25px;
+    }
+
     #config-barra-lateral{
-        
+        height: 61dvh;
+        width: 100dvw;
+        margin: 0%;
+    }
+
+    #estilo-titulo-close > button{
+        padding: 16px 27.5px;
+        font-size: 20px;
+    }
+
+    #config-icons{
+        padding: 5px;
+        margin: 0;
     }
 
 }
