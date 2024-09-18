@@ -115,7 +115,7 @@ main{
 }
 
 #display-div-barra-lateral{
-    display: block;
+    display: none;
 }
 
 #config-barra-lateral{
@@ -125,7 +125,7 @@ main{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    /* animation: animacaoBarraLateral 500ms 1; */
+    animation: animacaoBarraLateral 500ms 1;
 }
 
 #estilo-titulo-close{
@@ -183,6 +183,9 @@ main{
     font-size: 24px;
 }
 
+#config-categoria-informatica{
+    display: none;
+}
 
 .estilo-config-categorias{
     padding: 8px 15px;
@@ -192,6 +195,25 @@ main{
     font: normal normal 20px 'fonte-texto2';
     color: #919191;
     cursor: pointer;
+}
+
+.estilo-lista{
+    padding: 10px 0px 0px 38px;
+}
+
+.estilo-lista > li, .estilo-lista > li > a{
+    font: normal normal 16px 'fonte-texto1';
+    text-decoration: none;
+    color: #38b6ff;
+    cursor: pointer;
+}
+
+.estilo-lista > li > a:hover{
+    color: white;
+}
+
+.estilo-lista > li > a:active{
+    color: white;
 }
 
 /* Configurações de Icones */

@@ -6,8 +6,13 @@ function tamanhoBody(){
 
 function eventoDesign(){
     if(window.document.getElementById('display-div-barra-lateral').style.display == 'block'){
-        window.document.getElementById('display-div-barra-lateral').style.display = 'none'
+        window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral2"
+        window.document.getElementById('config-categoria-informatica').style.display = 'none'
+        setTimeout(function(){
+            window.document.getElementById('display-div-barra-lateral').style.display = 'none'
+        },100)
     }else{
+        window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral"
         window.document.getElementById('display-div-barra-lateral').style.display = 'block'
     }
 }
@@ -22,6 +27,7 @@ function eventoEquiv(){
 
 function eventoClose(){
     window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral2"
+    window.document.getElementById('config-categoria-informatica').style.display = 'none';
     setTimeout(function(){
         window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral"
         window.document.getElementById('display-div-barra-lateral').style.display = 'none';
