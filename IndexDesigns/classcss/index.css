@@ -115,17 +115,17 @@ main{
 }
 
 #display-div-barra-lateral{
-    display: none;
+    display: block;
 }
 
 #config-barra-lateral{
     background: #222222;
-    height: 65dvh;
+    height: 450px;
     width: 250px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    animation: animacaoBarraLateral 500ms 1;
+    /* animation: animacaoBarraLateral 500ms 1; */
 }
 
 #estilo-titulo-close{
@@ -181,6 +181,16 @@ main{
 
 #config-conteudos > h1:active{
     font-size: 24px;
+}
+
+
+.estilo-config-categorias{
+    padding: 10px 15px;
+}
+
+.estilo-config-categorias > details > summary{
+    font: normal normal 20px 'fonte-texto2';
+    color: #919191;
 }
 
 /* Configurações de Icones */

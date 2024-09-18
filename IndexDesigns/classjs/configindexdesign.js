@@ -25,5 +25,5 @@ function eventoClose(){
     setTimeout(function(){
         window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral"
         window.document.getElementById('display-div-barra-lateral').style.display = 'none';
-    },300)
+    },200)
 }

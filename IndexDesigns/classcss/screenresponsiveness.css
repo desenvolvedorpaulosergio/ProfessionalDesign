@@ -61,6 +61,12 @@
         }
     }
 
+    @keyframes animacaoBarraLateral2 {
+        to{
+            transform: translateY(-1000px);
+        }
+    }
+
     #estilo-titulo-close > h1{
         font-size: 25px;
     }
