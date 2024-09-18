@@ -185,12 +185,13 @@ main{
 
 
 .estilo-config-categorias{
-    padding: 10px 15px;
+    padding: 8px 15px;
 }
 
 .estilo-config-categorias > details > summary{
     font: normal normal 20px 'fonte-texto2';
     color: #919191;
+    cursor: pointer;
 }
 
 /* Configurações de Icones */

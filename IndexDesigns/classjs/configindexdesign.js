@@ -27,3 +27,11 @@ function eventoClose(){
         window.document.getElementById('display-div-barra-lateral').style.display = 'none';
     },200)
 }
+
+function eventoInformatica(){
+    if(window.document.getElementById('config-categoria-informatica').style.display == 'block'){
+        window.document.getElementById('config-categoria-informatica').style.display = 'none'
+    }else{
+        window.document.getElementById('config-categoria-informatica').style.display = 'block'
+    }
+}
