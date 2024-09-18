@@ -21,5 +21,9 @@ function eventoEquiv(){
 }
 
 function eventoClose(){
-    window.document.getElementById('display-div-barra-lateral').style.display = 'none';
+    window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral2"
+    setTimeout(function(){
+        window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral"
+        window.document.getElementById('display-div-barra-lateral').style.display = 'none';
+    },300)
 }

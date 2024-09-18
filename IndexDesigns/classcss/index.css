@@ -94,10 +94,10 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
 /* Configurações Main */
 
 main{
+    padding: 2px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    padding: 2px;
 }
 
 /* Configurações da Barra Lateral */
@@ -105,6 +105,12 @@ main{
 @keyframes animacaoBarraLateral {
     from{
         transform: translateX(-500px);
+    }
+}
+
+@keyframes animacaoBarraLateral2 {
+    to{
+        transform: translateX(-1000px);
     }
 }
 
@@ -119,7 +125,7 @@ main{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    animation: animacaoBarraLateral 300ms 1;
+    animation: animacaoBarraLateral 500ms 1;
 }
 
 #estilo-titulo-close{
@@ -151,7 +157,7 @@ main{
 #config-conteudos{
     background: black;
     overflow-y: auto;
-    height: 300px;
+    height: 48dvh;
 }
 
 #config-conteudos::-webkit-scrollbar{
