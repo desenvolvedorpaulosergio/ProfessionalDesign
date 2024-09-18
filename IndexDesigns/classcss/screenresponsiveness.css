@@ -50,14 +50,21 @@
 
     /* Configurações de Responsividade da Barra Lateral de Tela max-width: 550px*/
 
+    @keyframes animacaoBarraLateral {
+        from{
+            transform: translateY(-1000px);
+        }
+    }
+
     #estilo-titulo-close > h1{
         font-size: 25px;
     }
 
     #config-barra-lateral{
-        height: 61dvh;
+        height: 60dvh;
         width: 100dvw;
         margin: 0%;
+        animation: animacaoBarraLateral 300ms 1;
     }
 
     #estilo-titulo-close > button{
