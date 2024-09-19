@@ -241,6 +241,59 @@ main{
     width: 1400px;
 }
 
-body{
-    background: red;
+/* Configurações Modal de Aviso  */
+
+#config-display-container{
+    display: none;
+}
+
+#estilo-container-modal{
+    background: #4d4d4d96;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#estilo-mensagem-modal{
+    border: none;
+    width: 500px;
+    height: 240px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    border-bottom: 5px solid #222222;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+
+#estilo-mensagem-modal > p{
+    font: normal normal 25px 'arial';
+    background: #E5E5E5;
+    margin: 20px 0px;
+    color: #437fbe;
+    width: 100%;
+    
+}
+
+#estilo-mensagem-modal > button{
+    font: normal normal 20px 'arial';
+    background: #38b6ff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    transition: 100ms;
+}
+
+#estilo-mensagem-modal > button:hover{
+    background: #38b6ffdc;
 }
