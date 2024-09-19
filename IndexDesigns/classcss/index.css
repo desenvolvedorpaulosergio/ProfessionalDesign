@@ -326,7 +326,8 @@ main{
 }
 
 #textojs{
-    font: normal normal 12px 'arial';
+    font: normal normal 15px 'arial';
+    padding: 10px 10px 10px 20px;
     text-align: justify;
 }
 
