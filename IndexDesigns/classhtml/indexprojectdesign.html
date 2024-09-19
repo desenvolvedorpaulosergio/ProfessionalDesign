@@ -79,12 +79,7 @@
                 </div>
             </div>
         </div>
-        <iframe src="" frameborder="0" id="config-iframe" srcdoc="
-        <div style='display:flex; flex-flow: column nowrap; align-items: center; justify-content:center; text-align: center;'>
-        <h1 style='font-size: 60px; color: #AFAFAF; margin: 10vh 0px 20px 0px;'> Selecione meus Projetos Criativos <br> para Visualizá-los!</h1>
-        <p style='font-size: 30px; color: #AFAFAF; padding:0; margin:0 ; font-family: arial; margin: 0;'> Precione a opção de <ins>designs</ins>.</p>
-        </div>
-        "></iframe>
+        <iframe src="" frameborder="0" id="config-iframe"></iframe>
     </main>
     
     <footer>
@@ -107,17 +102,27 @@
     <!-- Modal de Aviso -->
 
     <div id="config-display-container">
-        <div id="estilo-container-modal">
-            <div id="estilo-mensagem-modal">
+        <div class="estilo-container-modal">
+            <div class="estilo-mensagem-modal">
                 <img src="../resources/imgs/clamation-point.png" alt="" width="80px">
                 <p>Selecione um Projeto para <br> Executar a Transação.</p>
                 <button onclick="eventoAvisoModal()">OK</button>
             </div>
         </div>
     </div>
-    <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cupiditate. Accusantium maiores labore aliquid, aliquam esse ut quidem voluptates, error natus reiciendis delectus consectetur consequuntur omnis veniam nisi culpa molestiae?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni voluptatibus blanditiis, in fuga est culpa adipisci pariatur necessitatibus nostrum non autem ratione deserunt vitae reiciendis officia molestias, expedita odit!
-    </h1>
+
+    <div id="config-display-container2">
+        <div class="estilo-container-modal">
+            <div class="estilo-mensagem-modal">
+                <img src="../resources/imgs/clamation-point.png" alt="clamation-point" width="80px">
+                <p>Deseja Realmente Executar essa Operação?</p>
+                <span>
+                    <button onclick="eventoConfirmacaoPositiva()">Sim</button>
+                    <button onclick="eventoConfirmacaoNegativa()">Não</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

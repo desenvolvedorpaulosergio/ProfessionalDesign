@@ -241,26 +241,30 @@ main{
     width: 1400px;
 }
 
-/* Configurações Modal de Aviso  */
+/* Configurações Modal de Aviso, confirmação  */
 
 #config-display-container{
     display: none;
 }
 
-#estilo-container-modal{
+#config-display-container2{
+    display: none;
+}
+
+.estilo-container-modal {
     background: #4d4d4d96;
-    position: absolute;
-    height: 100dvh;
-    width: 100dvw;
-    left: 0dvh;
-    top: 0dvw;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
 }
 
-#estilo-mensagem-modal{
+.estilo-mensagem-modal{
     border: none;
     width: 500px;
     height: 240px;
@@ -275,7 +279,7 @@ main{
 }
 
 
-#estilo-mensagem-modal > p{
+.estilo-mensagem-modal > p, .estilo-mensagem-modal > span > p{
     font: normal normal 25px 'arial';
     background: #E5E5E5;
     color: #437fbe;
@@ -284,17 +288,18 @@ main{
     
 }
 
-#estilo-mensagem-modal > button{
+.estilo-mensagem-modal > button, .estilo-mensagem-modal > span > button{
     font: normal normal 20px 'arial';
     background: #38b6ff;
     border-radius: 5px;
     padding: 10px 25px;
+    margin: 0px 5px;
     color: white;
     border: none;
     transition: 100ms;
 }
 
-#estilo-mensagem-modal > button:hover{
+.estilo-mensagem-modal > button:hover, .estilo-mensagem-modal > span > button:hover{
     background: #38b6ffdc;
 }
 

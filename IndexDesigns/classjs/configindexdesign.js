@@ -48,9 +48,39 @@ function eventoAvisoModal(){
 }
 
  function EventoEnter(){
-     if(window.document.getElementsByTagName('iframe')[0].style.src == ""){
+     if(window.document.getElementsByTagName('iframe')[0].srcdoc !== ""){
          window.document.getElementById('config-display-container').style.display = 'block'
          window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
      }else{
+        //Configurações Enter
+        alert('entrando no site...')
+        window.location = 'google.com'
      }
  }
+
+ function EventoDownload(){
+    if(window.document.getElementsByTagName('iframe')[0].srcdoc !== ""){
+        window.document.getElementById('config-display-container').style.display = 'block'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
+    }else{
+        window.document.getElementById('config-display-container2').style.display = 'block'
+    }
+}
+
+function eventoConfirmacaoPositiva(){
+    alert('Executando Download...')
+}
+
+function eventoConfirmacaoNegativa(){
+    window.document.getElementById('config-display-container2').style.display = 'none'
+}
+
+function EventoFullScreen(){
+    if(window.document.getElementsByTagName('iframe')[0].srcdoc !== ""){
+        window.document.getElementById('config-display-container').style.display = 'block'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
+    }else{
+       alert('entrando no site...')
+       window.location = 'google.com'
+    }
+}
