@@ -252,8 +252,8 @@ main{
     position: absolute;
     height: 100dvh;
     width: 100dvw;
-    left: 0px;
-    top: 0px;
+    left: 0dvh;
+    top: 0dvw;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -307,25 +307,23 @@ main{
     padding: 8px 20px;
 }
 
-#config-elementos > div{
+/* #config-elementos > div{
     background: #222222;
-    color: white;
     padding: 20px 10px;
     border-radius: 5px;
+    color: white;
     width: 60%;
-}
-
-/* Estilo Temporário: Apricação JavaScript */
+} */
 
 .estilo-botoes{
     background: #222222;
     border-radius: 100px;
     text-align: center;
     line-height: 0px;
+    margin: 0px 2px;
     color: white;
-    border: none;
     padding: 15px;
-    margin: 0px 5px;
+    border: none;
     transition: 100ms;
 }
 

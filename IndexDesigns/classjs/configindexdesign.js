@@ -46,3 +46,11 @@ function eventoAvisoModal(){
     window.document.getElementById('config-display-container').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
+
+ function EventoEnter(){
+     if(window.document.getElementsByTagName('iframe')[0].style.src == ""){
+         window.document.getElementById('config-display-container').style.display = 'block'
+         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
+     }else{
+     }
+ }

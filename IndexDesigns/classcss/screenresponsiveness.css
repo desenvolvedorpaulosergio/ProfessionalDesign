@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 1366px) {
     #config-iframe, #config-barra-lateral{
-        height: 70dvh;
+        height: 75dvh;
     }
 }
 
@@ -120,4 +120,26 @@
         width: 100%;
     }
 
+    #config-iframe{
+        height: 69vh;
+    }
+
+    #estilo-mensagem-modal{
+        height: 175px;
+        width: 350px;
+    }
+
+    #estilo-mensagem-modal > img{
+        width: 50px;
+    }
+
+    #estilo-mensagem-modal > p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+
+    #estilo-mensagem-modal > button{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
 }
