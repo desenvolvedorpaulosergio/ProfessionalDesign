@@ -1,5 +1,11 @@
 @charset 'UTF-8';
 
+@media screen and (min-width: 1366px) {
+    #config-iframe, #config-barra-lateral{
+        height: 70dvh;
+    }
+}
+
 @media screen and (max-width: 690px) {
     nav{
         padding: 25px 15px;
@@ -92,7 +98,7 @@
     }
 
     #config-barra-lateral{
-        height: 60dvh;
+        height: 65dvh;
         width: 100dvw;
         margin: 0%;
         animation: animacaoBarraLateral 300ms 1;
@@ -109,8 +115,8 @@
     }
 
     #config-iframe{
-        width: 100%;
         border: none;
+        width: 100%;
     }
 
 }

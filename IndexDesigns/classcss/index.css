@@ -237,7 +237,7 @@ main{
 #config-iframe{
     border-right: 15px solid #A6A6A6;
     background: #cacaca;
-    height: 70dvh;
+    height: 450px;
     width: 1400px;
 }
 
@@ -278,8 +278,8 @@ main{
 #estilo-mensagem-modal > p{
     font: normal normal 25px 'arial';
     background: #E5E5E5;
-    margin: 20px 0px;
     color: #437fbe;
+    margin: 20px 0px;
     width: 100%;
     
 }
@@ -296,8 +296,4 @@ main{
 
 #estilo-mensagem-modal > button:hover{
     background: #38b6ffdc;
-}
-
-body{
-    background: blue;
 }
