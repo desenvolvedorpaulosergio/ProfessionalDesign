@@ -250,8 +250,8 @@ main{
 #estilo-container-modal{
     background: #4d4d4d96;
     position: absolute;
-    height: 100vh;
-    width: 100vw;
+    height: 100dvh;
+    width: 100dvw;
     left: 0px;
     top: 0px;
     display: flex;
@@ -296,4 +296,53 @@ main{
 
 #estilo-mensagem-modal > button:hover{
     background: #38b6ffdc;
+}
+
+/* COnfigurações footer */
+
+#config-elementos{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+#config-elementos > div{
+    background: #222222;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+/* Estilo Temporário: Apricação JavaScript */
+
+.estilo-botoes{
+    background: #222222;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 0px;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 0px 5px;
+    transition: 100ms;
+}
+
+.estilo-botoes:hover{
+    background: #222222be;
+    color: #ffffffb9;
+    cursor: pointer;
+}
+
+.estilo-botoes:active{
+    transform: scale(0.95);
+}
+
+.estilo-botoes > span{
+    font-size: 30px;
+}
+
+#config-span-opcoes{
+    margin-left: auto;
 }

@@ -41,3 +41,8 @@ function eventoInformatica(){
         window.document.getElementById('config-categoria-informatica').style.display = 'block'
     }
 }
+
+function eventoAvisoModal(){
+    window.document.getElementById('config-display-container').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}

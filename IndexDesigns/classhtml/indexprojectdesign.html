@@ -80,23 +80,29 @@
             </div>
         </div>
         <iframe src="" frameborder="0" id="config-iframe" srcdoc="
-        <div style='display: flex; justify-content: center; align-items: center; height: 100vh;'>
-        <img src='https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Logos/logopizzariarapidista.png' alt='' height='100%' onclick='teste()'>
+        <div style='display:flex; flex-flow: column nowrap; align-items: center; justify-content:center; text-align: center;'>
+        <h1 style='font-size: 60px; color: #AFAFAF; margin: 10vh 0px 20px 0px;'> Selecione meus Projetos Criativos <br> para Visualizá-los!</h1>
+        <p style='font-size: 30px; color: #AFAFAF; padding:0; margin:0 ; font-family: arial; margin: 0;'> Precione a opção de <ins>designs</ins>.</p>
         </div>
-"></iframe>
+        "></iframe>
     </main>
-    <!-- <footer>
-        <details><summary>Observação do Projeto...</summary></details>
-        <button class="configuracao-padrao-botoes">
-            <span class="material-symbols-outlined">login</span>
-        </button>
-        <button class="configuracao-padrao-botoes">
-            <span class="material-symbols-outlined">download</span>
-        </button>
-        <button class="configuracao-padrao-botoes">
-            <span class="material-symbols-outlined">fullscreen</span>
-        </button>
-    </footer> -->
+    
+    <footer>
+        <div id="config-elementos">
+            <!-- <div><span id="projeto-descricao">Descrição...</span></div> -->
+            <span id="config-span-opcoes">
+                <button class="estilo-botoes" id="botao-enter" onclick="EventoEnter()">
+                    <span class="material-symbols-outlined">login</span>
+                </button>
+                <button class="estilo-botoes" id="botao-download">
+                    <span class="material-symbols-outlined" onclick="EventoDownload()">vertical_align_bottom</span>
+                </button>
+                <button class="estilo-botoes" id="botao-fullscreen" onclick="EventoFullScreen()">
+                    <span class="material-symbols-outlined">fullscreen</span>
+                </button>
+            </span>         
+        </div>
+    </footer>
 
     <!-- Modal de Aviso -->
 
@@ -105,10 +111,9 @@
             <div id="estilo-mensagem-modal">
                 <img src="../resources/imgs/clamation-point.png" alt="" width="80px">
                 <p>Selecione um Projeto para <br> Executar a Transação.</p>
-                <button>OK</button>
+                <button onclick="eventoAvisoModal()">OK</button>
             </div>
         </div>
-    </span>
-
+    </div>
 </body>
 </html>

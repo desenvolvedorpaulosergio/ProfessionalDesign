@@ -115,6 +115,7 @@
     }
 
     #config-iframe{
+        height: 490px;
         border: none;
         width: 100%;
     }
