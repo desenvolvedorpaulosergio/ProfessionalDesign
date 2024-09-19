@@ -240,3 +240,7 @@ main{
     height: 450px;
     width: 1400px;
 }
+
+body{
+    background: red;
+}
