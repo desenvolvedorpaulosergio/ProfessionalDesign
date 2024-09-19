@@ -66,6 +66,12 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     }
 }
 
+@keyframes animacaoOpcoes2 {
+    to{
+        transform: translateY(-500px);
+    }
+}
+
 #config-display-opcoes{
     display: none;
 }

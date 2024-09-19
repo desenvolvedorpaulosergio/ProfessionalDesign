@@ -19,8 +19,12 @@ function eventoDesign(){
 
 function eventoEquiv(){
     if(window.document.getElementById('config-display-opcoes').style.display == 'block'){
-        window.document.getElementById('config-display-opcoes').style.display = 'none'
+        window.document.getElementById('config-estilo-opcoes').style.animationName = "animacaoOpcoes2"
+        setTimeout(function(){
+            window.document.getElementById('config-display-opcoes').style.display = 'none'
+        },200)
     }else{
+        window.document.getElementById('config-estilo-opcoes').style.animationName = "animacaoOpcoes"
         window.document.getElementById('config-display-opcoes').style.display = 'block'
     }
 }
@@ -85,3 +89,11 @@ function EventoFullScreen(){
        alert('Tela Cheia')
     }
 }
+
+window.document.addEventListener('DOMContentLoaded', function(){
+    if(window.document.getElementsByTagName('iframe')[0].style.srcdoc != ""){
+        window.document.querySelector('#textojs').innerHTML = 'Selecione um projeto primeiro!';
+    }else{
+        // Novo tópico
+    }
+})
