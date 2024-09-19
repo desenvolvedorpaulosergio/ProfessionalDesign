@@ -84,13 +84,19 @@
     
     <footer>
         <div id="config-elementos">
-            <!-- <div><span id="projeto-descricao">Descrição...</span></div> -->
+            <details><summary>Descrição...</summary>
+                <div id="textojs">
+                    <span>
+                        Selecione um projeto primeiro!
+                    </span>
+                </span>
+            </details>
             <span id="config-span-opcoes">
                 <button class="estilo-botoes" id="botao-enter" onclick="EventoEnter()">
                     <span class="material-symbols-outlined">login</span>
                 </button>
-                <button class="estilo-botoes" id="botao-download">
-                    <span class="material-symbols-outlined" onclick="EventoDownload()">vertical_align_bottom</span>
+                <button class="estilo-botoes" id="botao-download" onclick="EventoDownload()">
+                    <span class="material-symbols-outlined">vertical_align_bottom</span>
                 </button>
                 <button class="estilo-botoes" id="botao-fullscreen" onclick="EventoFullScreen()">
                     <span class="material-symbols-outlined">fullscreen</span>
@@ -115,7 +121,7 @@
         <div class="estilo-container-modal">
             <div class="estilo-mensagem-modal">
                 <img src="../resources/imgs/clamation-point.png" alt="clamation-point" width="80px">
-                <p>Deseja Realmente Executar essa Operação?</p>
+                <p>Deseja Realmente Executar essa <br> Operação?</p>
                 <span>
                     <button onclick="eventoConfirmacaoPositiva()">Sim</button>
                     <button onclick="eventoConfirmacaoNegativa()">Não</button>
@@ -123,6 +129,5 @@
             </div>
         </div>
     </div>
-
 </body>
 </html>

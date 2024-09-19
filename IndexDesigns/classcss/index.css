@@ -306,19 +306,30 @@ main{
 /* COnfigurações footer */
 
 #config-elementos{
+    padding: 8px 20px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    padding: 8px 20px;
 }
 
-/* #config-elementos > div{
+ #config-elementos > details{
+     border: 2px groove black;
     background: #222222;
     padding: 20px 10px;
     border-radius: 5px;
     color: white;
     width: 60%;
-} */
+}
+
+#config-elementos > details > summary{
+    font: normal bold 20px 'fonte-texto2';
+}
+
+#textojs{
+    font: normal normal 12px 'arial';
+    text-align: justify;
+}
+
 
 .estilo-botoes{
     background: #222222;

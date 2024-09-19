@@ -24,8 +24,6 @@
         height: 450px;
     }
 
-
-
     #config-barra-lateral{
         background: #222222;
         height: 450px;
@@ -42,6 +40,32 @@
 
     #config-conteudos > h1{
         font-size: 22px;
+    }
+
+    /* Configurações de Responsovidade Footer */
+
+    #config-elementos{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    #config-span-opcoes{
+        margin: 0;
+    }
+
+    #config-elementos > details{
+        padding: 10px;
+        width: 90%;
+    }
+    
+    .estilo-botoes{
+        margin: 3px 1px;
+        padding: 10px;
+    }
+
+    #config-iframe, #config-barra-lateral{
+        height: 68vh;
     }
 
 }
@@ -115,7 +139,6 @@
     }
 
     #config-iframe{
-        height: 76vh;
         border: none;
         width: 100%;
     }
@@ -138,4 +161,13 @@
         padding: 10px 15px;
         font-size: 15px;
     }
+
+    #config-iframe{
+        height: 73vh;
+    }
+
+    #config-barra-lateral{
+        height: 66vh;
+    }
+
 }

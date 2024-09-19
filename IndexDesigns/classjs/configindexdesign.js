@@ -64,6 +64,7 @@ function eventoAvisoModal(){
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }else{
         window.document.getElementById('config-display-container2').style.display = 'block'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }
 }
 
@@ -73,6 +74,7 @@ function eventoConfirmacaoPositiva(){
 
 function eventoConfirmacaoNegativa(){
     window.document.getElementById('config-display-container2').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
 }
 
 function EventoFullScreen(){
@@ -80,7 +82,6 @@ function EventoFullScreen(){
         window.document.getElementById('config-display-container').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }else{
-       alert('entrando no site...')
-       window.location = 'google.com'
+       alert('Tela Cheia')
     }
 }
