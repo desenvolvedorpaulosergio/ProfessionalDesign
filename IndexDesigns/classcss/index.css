@@ -237,7 +237,7 @@ main{
 #config-iframe{
     border-right: 15px solid #A6A6A6;
     background: #cacaca;
-    height: 450px;
+    height: 70dvh;
     width: 1400px;
 }
 
@@ -296,4 +296,8 @@ main{
 
 #estilo-mensagem-modal > button:hover{
     background: #38b6ffdc;
+}
+
+body{
+    background: blue;
 }
