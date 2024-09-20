@@ -283,7 +283,6 @@ main{
     justify-content: center;
 }
 
-
 .estilo-mensagem-modal > p, .estilo-mensagem-modal > span > p{
     font: normal normal 25px 'arial';
     background: #E5E5E5;
@@ -306,6 +305,19 @@ main{
 
 .estilo-mensagem-modal > button:hover, .estilo-mensagem-modal > span > button:hover{
     background: #38b6ffdc;
+}
+
+/* Configurações de Estilos Espefícisos do Modal FullScreen */
+
+#config-modal-especifico-fullscreen{
+    padding: 10px;
+}
+
+#estilo-mensagem-modal-fullscreen{
+    border-top-right-radius: 0;
+    height: 95dvh;
+    margin: auto;
+    width: 90dvw;
 }
 
 /* COnfigurações footer */
