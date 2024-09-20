@@ -8,6 +8,7 @@ function eventoDesign(){
     if(window.document.getElementById('display-div-barra-lateral').style.display == 'block'){
         window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral2"
         window.document.getElementById('config-categoria-informatica').style.display = 'none'
+        window.document.getElementById('config-categoria-canva').style.display = 'none'
         setTimeout(function(){
             window.document.getElementById('display-div-barra-lateral').style.display = 'none'
         },100)
@@ -32,17 +33,30 @@ function eventoEquiv(){
 function eventoClose(){
     window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral2"
     window.document.getElementById('config-categoria-informatica').style.display = 'none';
+    window.document.getElementById('config-categoria-canva').style.display = 'none'
     setTimeout(function(){
         window.document.getElementById('config-barra-lateral').style.animationName = "animacaoBarraLateral"
         window.document.getElementById('display-div-barra-lateral').style.display = 'none';
     },200)
 }
 
+// Função-Evento Categórica de Informática
+
 function eventoInformatica(){
     if(window.document.getElementById('config-categoria-informatica').style.display == 'block'){
         window.document.getElementById('config-categoria-informatica').style.display = 'none'
     }else{
         window.document.getElementById('config-categoria-informatica').style.display = 'block'
+    }
+}
+
+// Função-Evento Categórica de Canva
+
+function eventoCanva(){
+    if(window.document.getElementById('config-categoria-canva').style.display == 'block'){
+        window.document.getElementById('config-categoria-canva').style.display = 'none'
+    }else{
+        window.document.getElementById('config-categoria-canva').style.display = 'block'
     }
 }
 
@@ -74,6 +88,8 @@ function eventoAvisoModal(){
 
 function eventoConfirmacaoPositiva(){
     alert('Executando Download...')
+    let linkElemento = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/layoutpizzariarapidista.pdf"
+    
 }
 
 function eventoConfirmacaoNegativa(){

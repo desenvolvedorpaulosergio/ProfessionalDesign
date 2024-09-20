@@ -190,7 +190,7 @@ main{
     font-size: 24px;
 }
 
-#config-categoria-informatica{
+#config-categoria-informatica, #config-categoria-canva{
     display: none;
 }
 
@@ -246,7 +246,6 @@ main{
     height: 450px;
     width: 1400px;
 }
-
 /* Configurações Modal de Aviso, confirmação  */
 
 #config-display-container{
