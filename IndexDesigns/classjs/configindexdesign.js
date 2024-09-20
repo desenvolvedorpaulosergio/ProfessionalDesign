@@ -88,8 +88,6 @@ function eventoAvisoModal(){
 
 function eventoConfirmacaoPositiva(){
     alert('Executando Download...')
-    let linkElemento = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/layoutpizzariarapidista.pdf"
-    
 }
 
 function eventoConfirmacaoNegativa(){
@@ -102,7 +100,7 @@ function EventoFullScreen(){
         window.document.getElementById('config-display-container').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }else{
-       alert('Tela Cheia')
+       window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/layout-pizzariarapidista.pdf"
     }
 }
 
