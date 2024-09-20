@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-    <title>Document</title>
+    <title>index-propject design</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="../resources/imgs/meu-perfil.png" type="image/x-icon">
     <link rel="stylesheet" href="../classcss/index.css">
@@ -123,6 +123,8 @@
         </div>
     </div>
 
+    <!-- Modal de Download -->
+
     <div id="config-display-container2">
         <div class="estilo-container-modal">
             <div class="estilo-mensagem-modal">
@@ -133,6 +135,17 @@
                     <button onclick="eventoConfirmacaoNegativa()">Não</button>
                 </span>
             </div>
+        </div>
+    </div>
+
+    <!-- Modal Full-Screen -->
+
+    <div id="config-display-container3">
+        <div class="estilo-container-modal" id="config-estilo-modal-fullscreen">
+            <iframe src="../conexao-imgs/conexao.html" class="estilo-mensagem-modal" id="estilo-config-fullscreen"></iframe>
+            <Button onclick="EventoClose()" id="config-estilo-close">
+                <span class="material-symbols-outlined">Close</span>
+            </Button>
         </div>
     </div>
 </body>

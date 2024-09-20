@@ -256,7 +256,11 @@ main{
     display: none;
 }
 
-.estilo-container-modal {
+#config-display-container3{
+    display: none;
+}
+
+.estilo-container-modal{
     background: #4d4d4d96;
     position: fixed;
     height: 100vh;
@@ -309,15 +313,28 @@ main{
 
 /* Configurações de Estilos Espefícisos do Modal FullScreen */
 
-#config-modal-especifico-fullscreen{
-    padding: 10px;
+#estilo-container-modal-fullscreen{
+    background: #4d4d4d96;
 }
 
-#estilo-mensagem-modal-fullscreen{
-    border-top-right-radius: 0;
-    height: 95dvh;
-    margin: auto;
-    width: 90dvw;
+#estilo-config-fullscreen{
+    border-radius: 0;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+#config-estilo-close{
+    background: #222222;
+    border-radius: 100px;
+    text-align: center;
+    position: absolute;
+    transition: 100ms;
+    line-height: 0px;
+    margin: 0px 2px;
+    color: white;
+    padding: 15px;
+    border: none;
+    top: 90dvh;
 }
 
 /* COnfigurações footer */
@@ -377,4 +394,10 @@ main{
 
 #config-span-opcoes{
     margin-left: auto;
+}
+
+/* COnfigurações de Estilo de Outra Página */
+
+#configuracoes-img{
+    text-align: center;
 }
