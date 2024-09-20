@@ -100,7 +100,7 @@ function EventoFullScreen(){
         window.document.getElementById('config-display-container').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }else{
-       window.location = ""
+       window.location = "../resources/teste/testeimg.html"
     }
 }
 
