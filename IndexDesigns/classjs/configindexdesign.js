@@ -100,12 +100,12 @@ function EventoFullScreen(){
         window.document.getElementById('config-display-container').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }else{
-       window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/layout-pizzariarapidista.pdf"
+       window.location = ""
     }
 }
 
 window.document.addEventListener('DOMContentLoaded', function(){
-    if(window.document.getElementsByTagName('iframe')[0].style.srcdoc != ""){
+    if(window.document.getElementsByTagName('iframe')[0].style.srcdoc !== ""){
         window.document.querySelector('#textojs').innerHTML = 'Selecione um projeto primeiro!';
     }else{
         // Novo tópico
