@@ -120,3 +120,10 @@ function eventoClose2(){
 }
 
 //Configurações JavaScript de Outra Classe
+window.document.addEventListener('DOMContentLoaded', function(){
+    if(window.document.getElementById('config-imgs').style.src = "../resources/imgs/message-design.jpg"){
+        window.document.querySelector('#config-imgs').style.height = '100dvh';
+    }else{
+        window.document.querySelector('#config-imgs').style.height = 'none';
+    }
+})
