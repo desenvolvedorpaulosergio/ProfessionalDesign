@@ -66,7 +66,7 @@ function eventoAvisoModal(){
 }
 
  function EventoEnter(){
-     if(window.document.getElementsByTagName('iframe')[0].srcdoc !== ""){
+     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
          window.document.getElementById('config-display-container').style.display = 'block'
          window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
      }else{
@@ -77,7 +77,7 @@ function eventoAvisoModal(){
  }
 
  function EventoDownload(){
-    if(window.document.getElementsByTagName('iframe')[0].srcdoc !== ""){
+    if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.getElementById('config-display-container').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }else{
@@ -96,7 +96,7 @@ function eventoConfirmacaoNegativa(){
 }
 
 function EventoFullScreen(){
-    if(window.document.getElementsByTagName('iframe')[0].srcdoc !== ""){
+    if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.getElementById('config-display-container').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }else{
@@ -107,7 +107,7 @@ function EventoFullScreen(){
 }
 
 window.document.addEventListener('DOMContentLoaded', function(){
-    if(window.document.getElementsByTagName('iframe')[0].style.srcdoc !== ""){
+    if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.querySelector('#textojs').innerHTML = 'Selecione um projeto primeiro!';
     }else{
         // Novo tópico
@@ -128,3 +128,10 @@ window.document.addEventListener('DOMContentLoaded', function(){
         window.document.getElementById('config-imgs').style.height = 'auto'
     }
 })
+
+// Configurações JavaScript de Conexão-Iframe: Categoria: Layout
+function pizzariaRapidista(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/pizzaria-rapidista.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/pizzaria-rapidista.html'
+    window.document.getElementById('textojs').innerHTML = "PizzariaRapidista: O nome é referente ao objetivo vínculo de serem feitos os atendimento e  as entregas de maneira rápida e eficaz. Logo, o termo “PizzariaRapidista” adere em um sentido de rápido atendimento(pedido-pidista), assim como a produção e a entrega da pizza(rapidista)"
+}
