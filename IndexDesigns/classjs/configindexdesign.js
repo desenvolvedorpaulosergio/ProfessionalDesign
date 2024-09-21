@@ -114,7 +114,7 @@ window.document.addEventListener('DOMContentLoaded', function(){
     }
 })
 
-function eventoClose(){
+function eventoClose2(){
     window.document.getElementById('config-display-container3').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
 }
