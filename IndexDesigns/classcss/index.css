@@ -321,6 +321,8 @@ main{
     border-radius: 0;
     height: 100dvh;
     width: 100dvw;
+    padding: 0;
+    margin: 0;
 }
 
 #config-estilo-close{
@@ -334,7 +336,7 @@ main{
     color: white;
     padding: 15px;
     border: none;
-    top: 90dvh;
+    top: 80dvh;
 }
 
 /* COnfigurações footer */
