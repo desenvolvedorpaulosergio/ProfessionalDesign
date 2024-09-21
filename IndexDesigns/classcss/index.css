@@ -314,7 +314,7 @@ main{
 /* Configurações de Estilos Espefícisos do Modal FullScreen */
 
 #config-tamanho-container{
-    background: #ff000077;
+    background: white;
     position: fixed;
     height: 100dvh;
     width: 100dvw;
@@ -326,7 +326,6 @@ main{
 }
 
 #config-iframe-fullscreen{
-    background: #3653af;
     height: 100dvh;
     width: 100dvw;
 }
