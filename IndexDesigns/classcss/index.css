@@ -257,7 +257,7 @@ main{
 }
 
 #config-display-container3{
-    display: none;
+    display: block;
 }
 
 .estilo-container-modal{
@@ -313,26 +313,25 @@ main{
 
 /* Configurações de Estilos Espefícisos do Modal FullScreen */
 
-#estilo-container-modal-fullscreen{
-    background: #4d4d4d96;
-}
-
-#estilo-config-fullscreen{
-    border-radius: 0;
+#config-tamanho-container{
+    background: #ff000077;
+    position: fixed;
     height: 100dvh;
     width: 100dvw;
-    padding: 0;
-    margin: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
-#config-estilo-modal-fullscreen{
+#config-iframe-fullscreen{
+    background: #3653af;
     height: 100dvh;
     width: 100dvw;
-    padding: 0;
-    margin: 0;
 }
 
-#config-estilo-close{
+#config-estilo-botao-close{
     background: #222222;
     border-radius: 100px;
     text-align: center;
@@ -341,12 +340,13 @@ main{
     line-height: 0px;
     margin: 0px 2px;
     color: white;
+    line-height: 0;
     padding: 15px;
     border: none;
-    top: 85dvh;
+    margin: 15px;
 }
 
-/* COnfigurações footer */
+/* Configurações footer */
 
 #config-elementos{
     padding: 8px 20px;
