@@ -257,7 +257,7 @@ main{
 }
 
 #config-display-container3{
-    display: block;
+    display: none;
 }
 
 .estilo-container-modal{

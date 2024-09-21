@@ -120,10 +120,11 @@ function eventoClose2(){
 }
 
 //Configurações JavaScript de Outra Classe
+//Nova Função Aprendida: endsWith('') => verifica se uma string termina com o valor especificado.
 window.document.addEventListener('DOMContentLoaded', function(){
-    if(window.document.getElementById('config-imgs').style.src = "../resources/imgs/message-design.jpg"){
-        window.document.querySelector('#config-imgs').style.height = '100dvh';
+    if(window.document.getElementById('config-imgs').src.endsWith('message-design.jpg')){
+        window.document.getElementById('config-imgs').style.height = '99dvh'
     }else{
-        window.document.querySelector('#config-imgs').style.height = 'none';
+        window.document.getElementById('config-imgs').style.height = 'auto'
     }
 })
