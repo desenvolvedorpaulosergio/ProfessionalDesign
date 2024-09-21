@@ -102,6 +102,7 @@ function EventoFullScreen(){
     }else{
         //Modal FullScreen
         window.document.getElementById('config-display-container3').style.display = 'block'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }
 }
 
@@ -115,6 +116,7 @@ window.document.addEventListener('DOMContentLoaded', function(){
 
 function EventoClose(){
     window.document.getElementById('config-display-container3').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
 }
 
 //Configurações JavaScript de Outra Classe

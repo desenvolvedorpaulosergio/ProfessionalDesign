@@ -325,6 +325,13 @@ main{
     margin: 0;
 }
 
+#config-estilo-modal-fullscreen{
+    height: 100dvh;
+    width: 100dvw;
+    padding: 0;
+    margin: 0;
+}
+
 #config-estilo-close{
     background: #222222;
     border-radius: 100px;
@@ -336,7 +343,7 @@ main{
     color: white;
     padding: 15px;
     border: none;
-    top: 80dvh;
+    top: 85dvh;
 }
 
 /* COnfigurações footer */
