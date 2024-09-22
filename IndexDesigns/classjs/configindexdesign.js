@@ -86,7 +86,7 @@ function eventoAvisoModal(){
 }
 
 function eventoConfirmacaoPositiva(){
-    alert('Executando Download...')
+    window.location = ""
 }
 
 function eventoConfirmacaoNegativa(){
