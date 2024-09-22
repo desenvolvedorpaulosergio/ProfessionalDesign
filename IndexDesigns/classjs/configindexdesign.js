@@ -66,14 +66,13 @@ function eventoAvisoModal(){
 }
 
  function EventoEnter(){
-     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
-         window.document.getElementById('config-display-container').style.display = 'block'
-         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
-     }else{
-        //Configurações Enter
-        alert('entrando no site...')
-        window.location = 'google.com'
-     }
+    if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
+        window.document.getElementById('config-display-container').style.display = 'block'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
+    } /*Inserindo Link de Projetos (Ps.Marques)*/
+    else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('pizzaria-rapidista.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/ThematicSystems/PizzariaRapidista/classhtml/index.html#"
+    }
  }
 
  function EventoDownload(){
