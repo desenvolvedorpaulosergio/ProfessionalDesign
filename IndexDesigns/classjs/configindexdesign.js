@@ -132,5 +132,5 @@ window.document.addEventListener('DOMContentLoaded', function(){
 function pizzariaRapidista(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/pizzaria-rapidista.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/pizzaria-rapidista.html'
-    window.document.getElementById('textojs').innerHTML = "PizzariaRapidista: O nome é referente ao objetivo vínculo de serem feitos os atendimento e  as entregas de maneira rápida e eficaz. Logo, o termo “PizzariaRapidista” adere em um sentido de rápido atendimento(pedido-pidista), assim como a produção e a entrega da pizza(rapidista)"
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>PizzariaRapidista: O nome é referente ao objetivo vínculo de serem feitos os atendimento e  as entregas de maneira rápida e eficaz. Logo, o termo “PizzariaRapidista” adere em um sentido de rápido atendimento(pedido-pidista), assim como a produção e a entrega da pizza(rapidista)</p>"
 }
