@@ -345,6 +345,28 @@ main{
     margin: 15px;
 }
 
+/* Configurações de Estilos Espefícisos do Modal de Carregamento */
+
+#condig-fundo-carregamento{
+    background: white;
+}
+
+@keyframes anicacaoCarregamento {
+    to{
+        rotate: 360deg;
+    }
+}
+
+#estilo-carregamento-especifico{
+    width: 150px;
+    height: 150px;
+    border-radius: 10000px;
+    border: 15px solid #CACACA;
+    box-shadow: 0px 0px 5px black;
+    border-top: 15px solid #222222;
+    animation: anicacaoCarregamento 1s infinite;
+}
+
 /* Configurações footer */
 
 #config-elementos{

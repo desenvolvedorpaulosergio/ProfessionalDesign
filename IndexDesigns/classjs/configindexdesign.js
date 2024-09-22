@@ -88,8 +88,11 @@ function eventoAvisoModal(){
 function eventoConfirmacaoPositiva(){
     // Condições de Instalação de Arquivo (.zip)
     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('pizzaria-rapidista.html')){
-       window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/pizzaria.zip"
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/pizzaria.zip"
     }
+    setTimeout(function(){
+        window.document.getElementById('config-display-container2').style.display = 'none'
+    },1500)
 }
 
 function eventoConfirmacaoNegativa(){
@@ -137,3 +140,9 @@ function pizzariaRapidista(){
     document.getElementsByTagName('iframe')[1].src='../connectionpages/pizzaria-rapidista.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>PizzariaRapidista: O nome é referente ao objetivo vínculo de serem feitos os atendimento e  as entregas de maneira rápida e eficaz. Logo, o termo “PizzariaRapidista” adere em um sentido de rápido atendimento(pedido-pidista), assim como a produção e a entrega da pizza(rapidista)</p>"
 }
+
+window.document.addEventListener('DOMContentLoaded', function(){
+    setInterval(function(){
+        window.document.getElementById('config-display-container4').style.display = 'none'
+    }, 1500)
+})
