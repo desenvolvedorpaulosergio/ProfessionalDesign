@@ -86,7 +86,10 @@ function eventoAvisoModal(){
 }
 
 function eventoConfirmacaoPositiva(){
-    window.location = ""
+    // Condições de Instalação de Arquivo (.zip)
+    if(window.document.getElementsByTagName('iframe')[0].src.endsWith('pizzaria-rapidista.html')){
+       window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/pizzaria.zip"
+    }
 }
 
 function eventoConfirmacaoNegativa(){
