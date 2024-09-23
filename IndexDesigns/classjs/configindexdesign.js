@@ -72,6 +72,8 @@ function eventoAvisoModal(){
     } /*Inserindo Link de Projetos (Ps.Marques)*/
     else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('pizzaria-rapidista.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/ThematicSystems/PizzariaRapidista/classhtml/index.html#"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('evidence-ti.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/connectionpages/evidence-ti.html"
     }
  }
 
@@ -89,6 +91,8 @@ function eventoConfirmacaoPositiva(){
     // Condições de Instalação de Arquivo (.zip)
     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('pizzaria-rapidista.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/pizzaria.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('evidence-ti.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/Evidence-TI/evidence-tijip.zip"
     }
     setTimeout(function(){
         window.document.getElementById('config-display-container2').style.display = 'none'
@@ -140,6 +144,12 @@ function pizzariaRapidista(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/pizzaria-rapidista.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/pizzaria-rapidista.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>PizzariaRapidista: O nome é referente ao objetivo vínculo de serem feitos os atendimento e  as entregas de maneira rápida e eficaz. Logo, o termo “PizzariaRapidista” adere em um sentido de rápido atendimento(pedido-pidista), assim como a produção e a entrega da pizza(rapidista)</p>"
+}
+
+function evidenciasInformatica(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/evidence-ti.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/evidence-ti.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Os prints apresentado são resultantes aos cursos que fiz no decorrer do ano de 2024</p>"
 }
 
 window.document.addEventListener('DOMContentLoaded', function(){
