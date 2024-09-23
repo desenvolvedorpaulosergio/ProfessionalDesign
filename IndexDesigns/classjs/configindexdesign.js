@@ -92,6 +92,7 @@ function eventoConfirmacaoPositiva(){
     }
     setTimeout(function(){
         window.document.getElementById('config-display-container2').style.display = 'none'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
     },1500)
 }
 
