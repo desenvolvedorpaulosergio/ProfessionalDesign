@@ -65,6 +65,11 @@ function eventoAvisoModal(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
 
+function eventoAvisoModal2(){
+    window.document.getElementById('config-display-container5').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
  function EventoEnter(){
     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.getElementById('config-display-container').style.display = 'block'
@@ -74,6 +79,9 @@ function eventoAvisoModal(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/ThematicSystems/PizzariaRapidista/classhtml/index.html#"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('evidence-ti.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/connectionpages/evidence-ti.html"
+    }else{
+        window.document.getElementById('config-display-container5').style.display = 'block'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }
  }
 

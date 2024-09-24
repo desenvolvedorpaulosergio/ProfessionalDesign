@@ -248,15 +248,7 @@ main{
 }
 /* Configurações Modal de Aviso, confirmação  */
 
-#config-display-container{
-    display: none;
-}
-
-#config-display-container2{
-    display: none;
-}
-
-#config-display-container3{
+#config-display-container, #config-display-container2, #config-display-container3, #config-display-container5{
     display: none;
 }
 
