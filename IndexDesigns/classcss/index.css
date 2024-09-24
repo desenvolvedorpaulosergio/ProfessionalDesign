@@ -299,6 +299,10 @@ main{
     transition: 100ms;
 }
 
+.estilo-mensagem-modal > button, .estilo-mensagem-modal > span > button:active{
+    transform: scale(0.95);
+}
+
 .estilo-mensagem-modal > button:hover, .estilo-mensagem-modal > span > button:hover{
     background: #38b6ffdc;
 }
