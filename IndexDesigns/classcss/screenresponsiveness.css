@@ -67,7 +67,6 @@
     #config-iframe, #config-barra-lateral{
         height: 68vh;
     }
-
 }
 
 @media screen and (max-width: 550px) {
