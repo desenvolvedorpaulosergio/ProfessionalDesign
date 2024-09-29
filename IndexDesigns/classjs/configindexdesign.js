@@ -120,6 +120,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Tabelas/modelos-tabelas.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('desafio-vocabulario.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/desafio-vocabul%C3%A1rio.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('sinopse.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/sinopse.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
@@ -204,6 +206,14 @@ window.document.addEventListener('DOMContentLoaded', function(){
         window.document.getElementById('config-display-container4').style.display = 'none'
     }, 1500)
 })
+
+// Configurações JavaScript de Conexão-Iframe: Categoria: Canva -- [Cartazes]
+
+function eventoSinopse(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/sinopse.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/sinopse.html'
+    window.document.getElementById('textojs').innerHTML = "Criado por mim, desenvolvi essa sinopse para resumir os livros lidos cujo objetivo era de aumentar o meu repertório."
+}
 
 // Configurações JavaScript de Conexão-Iframe: Categoria: Word -- [Tabelas]
 
