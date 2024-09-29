@@ -60,6 +60,16 @@ function eventoCanva(){
     }
 }
 
+// Função-Evento Categórica de Word
+
+function eventoWord(){
+    if(window.document.getElementById('config-categoria-word').style.display == 'block'){
+        window.document.getElementById('config-categoria-word').style.display = 'none'
+    }else{
+        window.document.getElementById('config-categoria-word').style.display = 'block'
+    }
+}
+
 function eventoAvisoModal(){
     window.document.getElementById('config-display-container').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
@@ -81,6 +91,8 @@ function eventoAvisoModal2(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/connectionpages/evidence-ti.html"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('formulas-geometricas.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/Tables/tableformula/classhtml/index.html"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('desafio-vocabulario.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProjetosTestes/DesafioVocabulario/classehtml/"
     }
     else{
         window.document.getElementById('config-display-container5').style.display = 'block'
@@ -106,7 +118,10 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/Evidence-TI/evidence-tijip.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('tabela-cronograma-semanal.html') || window.document.getElementsByTagName('iframe')[0].src.endsWith('formulas-geometricas.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Tabelas/modelos-tabelas.zip"
-    }else{
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('desafio-vocabulario.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/desafio-vocabul%C3%A1rio.zip"
+    }
+    else{
         window.document.getElementById('config-display-container2').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }
@@ -163,14 +178,15 @@ function evidenciasInformatica(){
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Os prints apresentado são resultantes aos cursos que fiz no decorrer do ano de 2024</p>"
 }
 
-// Configurações JavaScript de Conexão-Iframe: Categoria: Layout
+// Configurações JavaScript de Conexão-Iframe: Categoria: Canva -- [Layout]
+
 function pizzariaRapidista(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/pizzaria-rapidista.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/pizzaria-rapidista.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>PizzariaRapidista: O nome é referente ao objetivo vínculo de serem feitos os atendimento e  as entregas de maneira rápida e eficaz. Logo, o termo “PizzariaRapidista” adere em um sentido de rápido atendimento(pedido-pidista), assim como a produção e a entrega da pizza(rapidista)</p>"
 }
 
-// Configurações JavaScript de Conexão-Iframe: Categoria: Tabelas
+// Configurações JavaScript de Conexão-Iframe: Categoria: Canva -- [Tabelas]
 function cronogramaSemanal(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/tabela-cronograma-semanal.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/tabela-cronograma-semanal.html'
@@ -188,3 +204,11 @@ window.document.addEventListener('DOMContentLoaded', function(){
         window.document.getElementById('config-display-container4').style.display = 'none'
     }, 1500)
 })
+
+// Configurações JavaScript de Conexão-Iframe: Categoria: Word -- [Tabelas]
+
+function desafioVocabulario(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/desafio-vocabulario.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/desafio-vocabulario.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>O projeto <q>desafio-vocabulário</q> tem como objetivo de usá-lo para memorizá-lo.</p>"
+}

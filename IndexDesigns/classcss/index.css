@@ -190,7 +190,7 @@ main{
     font-size: 24px;
 }
 
-#config-categoria-informatica, #config-categoria-canva{
+#config-categoria-informatica, #config-categoria-canva, #config-categoria-word{
     display: none;
 }
 
