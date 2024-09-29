@@ -180,7 +180,7 @@ function cronogramaSemanal(){
 function formulasGeometricas(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/formulas-geometricas.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/formulas-geometricas.html'
-    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>O projeto <q></q> tem como objetivo preestabelecer um cronograma já preparado para a criação.</p>"
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>O projeto <q>fórmulas-geométricas</q> tem como objetivo preestabelecer de memorizar o mais rápido possível as fórmulas para o ENEM. ;)</p>"
 }
 
 window.document.addEventListener('DOMContentLoaded', function(){
