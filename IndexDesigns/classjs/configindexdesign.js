@@ -80,6 +80,17 @@ function eventoAvisoModal2(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
 
+// Função-Evento Categórica de Excel
+
+function eventoExcel(){
+    if(window.document.getElementById('config-categoria-excel').style.display == 'block'){
+        window.document.getElementById('config-categoria-excel').style.display = 'none'
+    }else{
+        window.document.getElementById('config-categoria-excel').style.display = 'block'
+    }
+}
+
+
  function EventoEnter(){
     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.getElementById('config-display-container').style.display = 'block'
@@ -122,6 +133,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/desafio-vocabul%C3%A1rio.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('sinopse.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/sinopse.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('curriculo.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/curriculo.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
@@ -213,6 +226,12 @@ function eventoSinopse(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/sinopse.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/sinopse.html'
     window.document.getElementById('textojs').innerHTML = "Criado por mim, desenvolvi essa sinopse para resumir os livros lidos cujo objetivo era de aumentar o meu repertório."
+}
+
+function eventoCurriculo(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/curriculo.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/curriculo.html'
+    window.document.getElementById('textojs').innerHTML = "Eu criei esse diploma baseado nas cores, cujos aspectos representam a área tecnológica."
 }
 
 // Configurações JavaScript de Conexão-Iframe: Categoria: Word -- [Tabelas]
