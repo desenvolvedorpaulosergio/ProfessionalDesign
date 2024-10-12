@@ -114,7 +114,11 @@ function eventoExcel(){
     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.getElementById('config-display-container').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
-    }else{
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('sistema-financeiro.html')){
+        window.document.getElementById('config-display-container5').style.display = 'block'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
+    }
+    else{
         window.document.getElementById('config-display-container2').style.display = 'block'
         window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
     }
