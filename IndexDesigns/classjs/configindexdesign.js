@@ -90,7 +90,6 @@ function eventoExcel(){
     }
 }
 
-
  function EventoEnter(){
     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.getElementById('config-display-container').style.display = 'block'
@@ -240,4 +239,12 @@ function desafioVocabulario(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/desafio-vocabulario.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/desafio-vocabulario.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>O projeto <q>desafio-vocabulário</q> tem como objetivo de usá-lo para memorizá-lo.</p>"
+}
+
+// Configurações JavaScript de Conexão-Iframe: Categoria: Excel
+
+function desafioSistemaFinanceiro1(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/sistema-financeiro.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/sistema-financeiro.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Esse é o meu próprio sistema que desfruto não só para economizar, como também estudar os investimentos.</p>"
 }
