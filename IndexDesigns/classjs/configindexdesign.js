@@ -138,6 +138,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/sinopse.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('curriculo.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/curriculo.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('ficha-emprego.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/ficha-emprego.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
@@ -243,6 +245,12 @@ function desafioVocabulario(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/desafio-vocabulario.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/desafio-vocabulario.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>O projeto <q>desafio-vocabulário</q> tem como objetivo de usá-lo para memorizá-lo.</p>"
+}
+
+function fichaEmprego(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/ficha-emprego.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/ficha-emprego.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Nada a declarar!!!</p>"
 }
 
 // Configurações JavaScript de Conexão-Iframe: Categoria: Excel
