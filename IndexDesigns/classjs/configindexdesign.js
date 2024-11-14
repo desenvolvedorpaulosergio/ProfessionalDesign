@@ -140,6 +140,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/curriculo.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('ficha-emprego.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/ficha-emprego.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('panfleto-taxista.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/panfleto-taxista.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
@@ -197,6 +199,15 @@ function evidenciasInformatica(){
     document.getElementsByTagName('iframe')[1].src='../connectionpages/evidence-ti.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Os prints apresentado são resultantes aos cursos que fiz no decorrer do ano de 2024</p>"
 }
+
+// Configurações JavaScript de Conexão-Iframe: Categoria: Canva -- [Cartazes]
+
+function eventoTaxista(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/panfleto-taxista.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/panfleto-taxista.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Esse panfleto de taxista tem como propósito de ajudar uma pessoa próxima que me pediu para fazer o serviço.</p>"
+}
+
 
 // Configurações JavaScript de Conexão-Iframe: Categoria: Canva -- [Layout]
 
