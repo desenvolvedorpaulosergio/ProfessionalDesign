@@ -293,3 +293,11 @@ function desafioSistemaFinanceiro1(){
     document.getElementsByTagName('iframe')[1].src='../connectionpages/sistema-financeiro.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Esse é o meu próprio sistema que desfruto não só para economizar, como também estudar os investimentos.</p>"
 }
+
+// Configurações JavaScript de Conexão-Iframe: Categoria: Gimp
+
+function eventoProjetoGimp(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/projetos-gimp.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/projetos-gimp.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Esses são os meus projetos criados no gimp.</p>"
+}
