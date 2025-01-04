@@ -90,6 +90,20 @@ function eventoExcel(){
     }
 }
 
+// Função-Evento Categórica de Gimp
+
+window.document.addEventListener('DOMContentLoaded', function(){
+    document.getElementById('config-categoria-gimp').style.display = 'none'
+})
+
+function eventoGimp(){
+    if(window.document.getElementById('config-categoria-gimp').style.display == 'block'){
+        window.document.getElementById('config-categoria-gimp').style.display = 'none'
+    }else{
+        window.document.getElementById('config-categoria-gimp').style.display = 'block'
+    }
+}
+
  function EventoEnter(){
     if(window.document.getElementsByTagName('iframe')[0].src.endsWith('conexao.html')){
         window.document.getElementById('config-display-container').style.display = 'block'
@@ -142,6 +156,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/ficha-emprego.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('panfleto-taxista.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/panfleto-taxista.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('panettone.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/pannetone.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
@@ -248,6 +264,12 @@ function eventoCurriculo(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/curriculo.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/curriculo.html'
     window.document.getElementById('textojs').innerHTML = "Eu criei esse diploma baseado nas cores, cujos aspectos representam a área tecnológica."
+}
+
+function eventoPanettone(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/panettone.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/panettone.html'
+    window.document.getElementById('textojs').innerHTML = "O projeto apresentado tem como objetivo de diversificar os meus designs, apenas."
 }
 
 // Configurações JavaScript de Conexão-Iframe: Categoria: Word -- [Tabelas]
