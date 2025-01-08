@@ -158,6 +158,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/panfleto-taxista.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('panettone.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/pannetone.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('objetivos.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/design-objetivos.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
@@ -286,7 +288,7 @@ function fichaEmprego(){
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Nada a declarar!!!</p>"
 }
 
-function fichaEmprego(){
+function metasObjetivos(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/objetivos.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/objetivos.html'
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Desenvolvi esse mini-projeto para orzanizar as minhas metas de 2025</p>"
