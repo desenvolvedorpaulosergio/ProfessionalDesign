@@ -286,6 +286,12 @@ function fichaEmprego(){
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Nada a declarar!!!</p>"
 }
 
+function fichaEmprego(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/objetivos.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/objetivos.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Desenvolvi esse mini-projeto para orzanizar as minhas metas de 2025</p>"
+}
+
 // Configurações JavaScript de Conexão-Iframe: Categoria: Excel
 
 function desafioSistemaFinanceiro1(){
