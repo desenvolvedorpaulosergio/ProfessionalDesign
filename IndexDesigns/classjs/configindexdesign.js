@@ -302,6 +302,12 @@ function desafioSistemaFinanceiro1(){
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Esse é o meu próprio sistema que desfruto não só para economizar, como também estudar os investimentos.</p>"
 }
 
+function desafioSistemaFinanceiro2(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/sistema-financeiro2.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/sistema-financeiro2.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Esse projeto do excel tem como propósito de atualizar o antigo e usá-lo.</p>"
+}
+
 // Configurações JavaScript de Conexão-Iframe: Categoria: Gimp
 
 function eventoProjetoGimp(){
