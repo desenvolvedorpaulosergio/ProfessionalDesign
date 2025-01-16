@@ -117,6 +117,8 @@ function eventoGimp(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/Tables/tableformula/classhtml/index.html"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('desafio-vocabulario.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProjetosTestes/DesafioVocabulario/classehtml/"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('tabela-cronograma-semanal.html')){
+        window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/Tables/timeline/classhtml/index.html"
     }
     else{
         window.document.getElementById('config-display-container5').style.display = 'block'
