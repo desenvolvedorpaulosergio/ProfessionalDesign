@@ -166,6 +166,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/tables/design-objetivos.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('sistema-financeiro2.html')){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsExcel/system2/sistema-financeiro-psmarques.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('planta-minha-casa.html')){
+        window.location = "http://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/plantas/planta-casa.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
