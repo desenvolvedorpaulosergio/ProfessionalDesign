@@ -65,7 +65,9 @@ function eventoCanva(){
 function eventoWord(){
     if(window.document.getElementById('config-categoria-word').style.display == 'block'){
         window.document.getElementById('config-categoria-word').style.display = 'none'
+        window.document.getElementById('config-categoria-word2').style.display = 'none'
     }else{
+        window.document.getElementById('config-categoria-word2').style.display = 'block'
         window.document.getElementById('config-categoria-word').style.display = 'block'
     }
 }
