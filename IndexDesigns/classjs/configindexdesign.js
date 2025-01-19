@@ -300,6 +300,14 @@ function metasObjetivos(){
     window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Desenvolvi esse mini-projeto para organizar as minhas metas de 2025</p>"
 }
 
+// Configurações JavaScript de Conexão-Iframe: Categoria: Word -- [Plantas]
+
+function eventoPlanta1(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/planta-minha-casa.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/planta-minha-casa.html'
+    window.document.getElementById('textojs').innerHTML = "<p id='textojs'>Esse projeto representa uma visão clara da estrutura interna da minha casa.</p>"
+}
+
 // Configurações JavaScript de Conexão-Iframe: Categoria: Excel
 
 function desafioSistemaFinanceiro1(){
