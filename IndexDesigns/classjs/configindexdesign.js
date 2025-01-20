@@ -168,6 +168,8 @@ function eventoConfirmacaoPositiva(){
         window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsExcel/system2/sistema-financeiro-psmarques.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('planta-minha-casa.html')){
         window.location = "http://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/plantas/planta-casa.zip"
+    }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('venda-remedio.html')){
+        window.location = "http://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/plantas/planta-casa.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
@@ -280,6 +282,12 @@ function eventoPanettone(){
     document.getElementsByTagName('iframe')[0].src='../connectionpages/panettone.html'
     document.getElementsByTagName('iframe')[1].src='../connectionpages/panettone.html'
     window.document.getElementById('textojs').innerHTML = "O projeto apresentado tem como objetivo de diversificar os meus designs, apenas."
+}
+
+function eventoRemedio(){
+    document.getElementsByTagName('iframe')[0].src='../connectionpages/venda-remedio.html'
+    document.getElementsByTagName('iframe')[1].src='../connectionpages/venda-remedio.html'
+    window.document.getElementById('textojs').innerHTML = "O projeto apresentado tem como objetivo de diversificar os meus designs."
 }
 
 // Configurações JavaScript de Conexão-Iframe: Categoria: Word -- [Tabelas]
