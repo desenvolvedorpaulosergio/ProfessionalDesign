@@ -169,7 +169,7 @@ function eventoConfirmacaoPositiva(){
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('planta-minha-casa.html')){
         window.location = "http://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/plantas/planta-casa.zip"
     }else if(window.document.getElementsByTagName('iframe')[0].src.endsWith('venda-remedio.html')){
-        window.location = "http://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsWord/plantas/planta-casa.zip"
+        window.location = "http://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/venda-remedio.zip"
     }
     else{
         window.document.getElementById('config-display-container2').style.display = 'block'
